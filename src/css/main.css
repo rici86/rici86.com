@@ -67,7 +67,23 @@ html {
     border-width: 1px 3px 1px 3px;
 }
 
+/* languages  */
+.lang {
+    max-width: 35px;
+    transition: all 0.3s ease-in-out;
+}
+.lang:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
 /* Home page  */
+.home-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 2rem;
+}
 .home-container {
     width: 100vw;
     height: 100vh;
