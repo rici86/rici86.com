@@ -92,7 +92,8 @@ html {
     place-items: center;
     overflow: hidden;
 }
-.home-container::before {
+.home-container::before,
+#main-container::before {
     content: "";
     position: fixed;
     inset: 0;
@@ -148,6 +149,11 @@ html {
 }
 .home-right .photo {
     filter: brightness(1.05) saturate(1.4);
+}
+
+/* main page styles  */
+#main-container {
+    position: relative;
 }
 
 /* media queries  */
