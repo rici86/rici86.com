@@ -84,6 +84,9 @@ nav {
     justify-content: flex-end;
     align-items: center;
 }
+nav .lang {
+    margin-left: 1.5rem;
+}
 
 /* Home page  */
 .home-header {
