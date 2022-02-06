@@ -77,6 +77,14 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+/* Navigation  */
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 /* Home page  */
 .home-header {
     position: absolute;
