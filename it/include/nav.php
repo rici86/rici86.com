@@ -11,7 +11,15 @@
         <a href="eventi.php" class="button button-main">Eventi</a>
         <a href="scrittura.php" class="button button-main">Scrittura</a>
         <a href="fai-da-te.php" class="button button-main">Fai-da-te</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+    
+    <!-- <div class="navbar-toggler">
+        <i class="fas fa-bars"></i>
+    </div> -->
+
     <a href="index-eng.html" title="English" class="">
         <img src="../src/img/eng.png" alt="English" class="lang">
     </a>
