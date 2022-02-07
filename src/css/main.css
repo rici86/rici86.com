@@ -275,13 +275,15 @@ li:before {
     }
 }
 @media all and (max-width: 992px) {
+    .main-row {
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (max-width: 800px) {
     .navbar-toggler {
         display: initial;
         position: relative;
         cursor: pointer;
-    }
-    .main-row {
-        grid-template-columns: 1fr;
     }
 }
 @media all and (max-width: 576px) {
