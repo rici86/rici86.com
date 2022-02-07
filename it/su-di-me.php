@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Rici86 | Coder, Crafter, Creative </title>
+    <title>Rici86, qualcosa su di me | Coder, Crafter, Creative </title>
 
     <!-- Meta tags  -->
     <meta name="description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
@@ -14,9 +14,9 @@
     <meta property="og:title" content="Rici86 - Coder, Crafter, Creative" />
     <meta property="og:description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
     <meta property="og:site_name" content="Rici86" />
-    <meta property="og:image" content="src/img/spirit-of-the-forest.jpg" />
+    <meta property="og:image" content="../src/img/spirit-of-the-forest.jpg" />
 	
-	<link rel="shortcut icon" href="src/img/logofavicon.png" type="imag/png" />
+	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
     <!-- Css  -->
     <link href="../src/css/main.css" rel="stylesheet">

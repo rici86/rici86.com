@@ -79,13 +79,29 @@ html {
 
 /* Navigation  */
 nav {
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 nav .lang {
     margin-left: 1.5rem;
+}
+nav .button {
+    padding: 0.35rem 0.75rem;
+    border-radius: 12px/6px;
+}
+nav .button.active {
+    background-color: var(--medium);
+    color: var(--light);
+}
+nav .button.active:hover {
+    background-color: var(--medium);
+    color: var(--light);
+}
+nav .logo {
+    max-width: 45px;
+    margin-right: auto;
 }
 
 /* Home page  */
