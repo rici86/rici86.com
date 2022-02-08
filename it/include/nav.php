@@ -17,9 +17,9 @@
         <i class="fas fa-bars"></i>
     </div>
 
-    <a href="index-eng.html" title="English" class="">
+    <!-- <a href="index-eng.html" title="English" class="">
         <img src="../src/img/eng.png" alt="English" class="lang">
-    </a>
+    </a> -->
 </nav>
 
 <script>

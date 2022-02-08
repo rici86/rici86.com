@@ -27,6 +27,10 @@
     <div id="main-container">
         <?php include 'include/nav.php';?>
 
+        <a href="index-eng.html" title="English" class="lang-switcher">
+            <img src="../src/img/eng.png" alt="English" class="lang">
+        </a>
+
         <main>
             <section class="main-row">
                 <div class="card">
