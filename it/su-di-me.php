@@ -89,7 +89,9 @@
             </section>
 
             <section class="main-row" id="percorso">                
-                <div class="images"></div>
+                <div class="images">
+                    <img src="../src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
+                </div>
                 <div class="card">
                     <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
                     <p>

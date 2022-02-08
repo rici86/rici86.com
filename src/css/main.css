@@ -34,6 +34,7 @@ html {
 
 /* Basic image styles  */
 .img-responsive {
+    /* width: 100%; */
     max-width: 100%;
     height: auto;
 }
@@ -224,6 +225,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* cards  */
