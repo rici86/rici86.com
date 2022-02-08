@@ -125,6 +125,19 @@
                     <h2 class="card-title">E il mio passato "archeologico"?</h2>
                 </div>
             </section>
+
+            <section class="main-row" id="archeo">
+                <div class="card">
+                    <h2 class="card-title">Guida turistica in Italia e in Irlanda</h2>
+                </div>
+            </section>
+
+            <section class="main-row" id="archeo">
+                <div class="card">
+                    <h2 class="card-title">Turismo ed eventi</h2>
+                </div>
+            </section>
+
         </main>
 
         <?php include 'include/footer.php';?>
