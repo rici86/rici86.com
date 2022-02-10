@@ -32,6 +32,17 @@ html {
     }
 }
 
+/* utility classes  */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
 /* Basic image styles  */
 .img-responsive {
     /* width: 100%; */
@@ -264,6 +275,15 @@ li:before {
 .sottomenu a:after {
     content: "";
     height: 100%;
+}
+
+/* icons  */
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 2rem;
 }
 
 /* media queries  */

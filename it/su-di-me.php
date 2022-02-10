@@ -119,12 +119,52 @@
             <section class="main-row" id="oggi">
                 <div class="card">
                     <h2 class="card-title">Il mio lavoro oggi</h2>
+                    <p>
+                        Ed eccomi qui, a sporcarmi le mani con CSS (il mio primo amore), HTML, SASS, Php, Javascript e cugini, Laravel e non solo. 
+                    </p>
+                    <p>
+                        In un'azienda che realizza software personalizzato per altre aziende per gli usi più disparati e i casi più singolari, mi occupo di studiare i nuovi progetti con i clienti, realizzare demo interattive da aggiustare insieme fino ad arrivare a una base condivisa da cui sviluppare il prodotto finito.
+                    </p>
+                    <p>
+                        Il mio lavoro passa quindi alla fase di sviluppo, a cui partecipo attivamente: inizializzo il progetto, dalla grafica alle prime comunicazioni con il database, lavorando in sinergia con gli sviluppatori backend, a cui tocca poi il compito di dare vita alle funzionalità più complesse che ho disegnato.
+                    </p>
+                    <p>
+                        Cosa mi piace soprattutto? Che non si smette mai di imparare, di incontrare nuovi linguaggi, di scoprire nuovi modi di fare le cose e nuovi modi di tradurre in codice ciò che esiste nella mia testa o nei miei onnipresenti disegni.
+                    </p>
+                    <p>
+                        Ho la possibilità di mettere davvero le mani sotto il cofano, come ho sempre voluto fare. Di chiedere, di osservare, di provare, di imparare. 
+                    </p>
+                    
+                    <div class="icons-container">
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-sass"></i>
+                        <i class="fab fa-js-square"></i>
+                        <i class="fab fa-php"></i>
+                        <i class="fab fa-laravel"></i>
+                        <i class="fab fa-git-alt"></i>
+                    </div>
                 </div>
             </section>
             
             <section class="main-row" id="archeo">
+                <div class="images">
+                    <img src="../src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
+                </div>
                 <div class="card">
                     <h2 class="card-title">E il mio passato "archeologico"?</h2>
+                    <p>
+                        Ho frequentato l'università a Pavia, dove mi sono laureata in Archeologia Classica e Scienze dei Beni Culturali. 
+                    </p>
+                    <p>
+                        Durante e dopo gli studi, ho fatto molta esperienza nei musei, come guida museale e come operatore didattico. Per diversi anni ho lavorato a progetti di didattica dell'archeologia nelle scuole, prima con il CRIDACT dell'Università di Pavia e poi con un'associazione culturale. Ho lavorato come operatore didattico anche all'interno di diversi musei.
+                    </p>
+                    <p>
+                        Ho partecipato a campagne di scavo, sia da studente sia come archeologo professionista. Non solo scavo vero e proprio, ma anche catalogazione dei materiali, rilievi, disegni, documentazione di scavo. 
+                    </p>
+                    <p>
+                        La mia passione erano, però, i musei, con una forte propensione verso il turismo culturale e archeologico.
+                    </p>
                 </div>
             </section>
 
