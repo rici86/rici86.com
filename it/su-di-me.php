@@ -175,6 +175,15 @@
             <section class="main-row" id="irlanda">
                 <div class="card">
                     <h2 class="card-title">Guida museale in Italia e in Irlanda</h2>
+                    <p>
+                        Ho lavorato per musei e luoghi della cultura per anni, in un museo in particolare per 16 anni. 
+                    </p>
+                    <p>
+                        Non solo in Italia: ho lavorato anche in un museo in Irlanda. Un'esperienza che ha lasciato il segno, di cui ho scritto molto sul mio blog. 
+                    </p>
+                    <p>
+                        Ne ho fatte di cose, nei musei. Visite guidate, didattica, progettazione dell'allestimento museale, creazione di percorsi didattici e di visita, persino traduzioni. Impossibile riassumere tutto in poche righe. E neppure è lo scopo di questi paragrafi.
+                    </p>
                 </div>
                 <div class="images">
                     <img src="../src/img/foto/2013-cork.jpg" alt="" class="img-responsive photo">
