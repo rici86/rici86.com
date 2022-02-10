@@ -84,13 +84,13 @@
                     </ol> -->
                 </div>
                 <div class="images">
-                    <img src="../src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2019-rici.jpg" alt="" class="img-responsive photo" style="filter: saturate(1.2);">
                 </div>
             </section>
 
             <section class="main-row" id="percorso">                
                 <div class="images">
-                    <img src="../src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
                     <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
@@ -145,11 +145,14 @@
                         <i class="fab fa-git-alt"></i>
                     </div>
                 </div>
+                <div class="images">
+                    <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
+                </div>
             </section>
             
             <section class="main-row" id="archeo">
                 <div class="images">
-                    <img src="../src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
                     <h2 class="card-title">E il mio passato "archeologico"?</h2>
@@ -157,24 +160,31 @@
                         Ho frequentato l'università a Pavia, dove mi sono laureata in Archeologia Classica e Scienze dei Beni Culturali. 
                     </p>
                     <p>
-                        Durante e dopo gli studi, ho fatto molta esperienza nei musei, come guida museale e come operatore didattico. Per diversi anni ho lavorato a progetti di didattica dell'archeologia nelle scuole, prima con il CRIDACT dell'Università di Pavia e poi con un'associazione culturale. Ho lavorato come operatore didattico anche all'interno di diversi musei.
+                        Durante e dopo gli studi, ho fatto molta esperienza nei musei, come guida museale e come operatore didattico. Per diversi anni ho lavorato a progetti di didattica dell'archeologia nelle scuole, prima con il CRIDACT dell'Università di Pavia e poi con un'associazione culturale. Ho lavorato come operatore didattico anche all'interno di diversi musei. Di laboratori didattici ne ho anche creati, e uno è stato pubblicato in un volume di studi sul paesaggio medievale. 
                     </p>
                     <p>
                         Ho partecipato a campagne di scavo, sia da studente sia come archeologo professionista. Non solo scavo vero e proprio, ma anche catalogazione dei materiali, rilievi, disegni, documentazione di scavo. 
                     </p>
+                    <p>Ah, il disegno! Fin da piccola adoravo disegnare, passione che è rimasta nel tempo. Anche durante la tesi o gli scavi ho adorato il disegno archeologico. Tavole di cocci, planimetrie, sezioni... che fossero a matita o digitali, mi piaceva molto questa parte delle mie mansioni. </p>
                     <p>
-                        La mia passione erano, però, i musei, con una forte propensione verso il turismo culturale e archeologico.
+                        La mia vera passione erano, però, i musei, con una forte propensione verso il turismo culturale e archeologico.
                     </p>
                 </div>
             </section>
 
-            <section class="main-row" id="archeo">
+            <section class="main-row" id="irlanda">
                 <div class="card">
-                    <h2 class="card-title">Guida turistica in Italia e in Irlanda</h2>
+                    <h2 class="card-title">Guida museale in Italia e in Irlanda</h2>
+                </div>
+                <div class="images">
+                    <img src="../src/img/foto/2013-cork.jpg" alt="" class="img-responsive photo">
                 </div>
             </section>
 
-            <section class="main-row" id="archeo">
+            <section class="main-row" id="turismo">
+            <div class="images">
+                    <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
+                </div>
                 <div class="card">
                     <h2 class="card-title">Turismo ed eventi</h2>
                 </div>
