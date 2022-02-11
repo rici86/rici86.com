@@ -25,7 +25,7 @@
 
 <body>
     <div id="main-container">
-        <?php include 'include/nav.php';?>
+        <?php require_once 'include/nav.php';?>
 
         <a href="index-eng.html" title="English" class="lang-switcher">
             <img src="../src/img/eng.png" alt="English" class="lang">
@@ -203,11 +203,11 @@
 
         </main>
 
-        <?php include 'include/footer.php';?>
+        <?php require_once 'include/footer.php';?>
 
     </div>
 
-    <!-- <?php include 'include/end.php';?> -->
+    <!-- <?php require_once 'include/end.php';?> -->
 
 </body>
 </html>
