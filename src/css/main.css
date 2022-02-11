@@ -43,6 +43,25 @@ html {
     text-align: center;
 }
 
+/* links  */
+a {
+    color: var(--primary);
+}
+a:hover,
+a:focus,
+a:active {
+    color: var(--accent);
+}
+a:visited {
+    color: var(--medium);
+}
+a:focus-visible {
+    color: var(--accent);
+    outline: 1px solid var(--accent);
+    padding: 2px 0;
+    border-radius: 4px;
+}
+
 /* Basic image styles  */
 .img-responsive {
     /* width: 100%; */
@@ -98,6 +117,10 @@ html {
 }
 
 /* typography  */
+h1,
+h2 {
+    margin-top: 1rem;
+}
 p {
     line-height: 1.7;
     margin-top: 0;
@@ -237,6 +260,17 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.main-row .images img {
+    max-width: 800px;
+}
+.header-flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-flex-between > * {
+    height: max-content;
 }
 
 /* cards  */
