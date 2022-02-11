@@ -1,3 +1,4 @@
+<?php require_once 'path.php';?>
 <?php
     $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
