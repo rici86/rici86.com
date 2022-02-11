@@ -60,28 +60,6 @@
                     <p>
                         <i>Ma allora come sei finita a sviluppare in una software agency</i>, ti starai chiedendo.
                     </p>
-                    <!-- <ol class="sottomenu">
-                        <li>
-                            <a href="#percorso">Il mio percorso verso lo sviluppo</a>                        
-                        </li>
-                        <li>
-                            <a href="#oggi">Il mio lavoro oggi</a>
-                        </li>
-                        <li>
-                            <a href="#archeo">E il mio passato "archeologico"?</a>
-                            <ol class="sottomenu">
-                                <li>
-                                    <a href="">Archeologia e musei</a>
-                                </li>
-                                <li>
-                                    <a href="">La mia vita in Irlanda</a>
-                                </li>
-                                <li>
-                                    <a href="">Turismo ed eventi</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ol> -->
                 </div>
                 <div class="images">
                     <img src="../src/img/foto/2019-rici.jpg" alt="" class="img-responsive photo" style="filter: saturate(1.2);">
@@ -93,7 +71,10 @@
                     <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
-                    <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
+                    <div class="header-flex-between">
+                        <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
+                        <a href="sviluppo-web.php" class="button button-main">Scopri di più</a>
+                    </div>
                     <p>
                         Prima da autodidatta, aprendo il "cofano" dei siti fatti da altri per annusare cosa c'era dentro, dietro, sotto. Alla ricerca del motore che faceva funzionare le cose.
                     </p>
@@ -174,15 +155,21 @@
 
             <section class="main-row" id="irlanda">
                 <div class="card">
-                    <h2 class="card-title">Guida museale in Italia e in Irlanda</h2>
+                    <h2 class="card-title">Operatore museale in Italia e in Irlanda</h2>
                     <p>
-                        Ho lavorato per musei e luoghi della cultura per anni, in un museo in particolare per 16 anni. 
+                        Ho lavorato per musei e luoghi della cultura per anni, in un museo in particolare per 16 anni. Molti ancora oggi mi conoscono come "la castellana" a causa di quella esperienza al Castello di Zavattarello. Di quel museo sono stata anche direttore, ho ideato e organizzato molti eventi, quindi è normale che questa etichetta mi rimanga stampata addosso indelebile. 
                     </p>
                     <p>
-                        Non solo in Italia: ho lavorato anche in un museo in Irlanda. Un'esperienza che ha lasciato il segno, di cui ho scritto molto sul mio blog. 
+                        Non solo in Italia: ho lavorato anche in un museo in Irlanda. Un'esperienza che ha lasciato il segno, di cui ho scritto molto <a href="https://rici86.blogspot.com/search/label/Rici%27s%20Irish%20Adventures">sul mio blog</a>. E il segno è rimasto tracciato in profondità nella mia passione attuale per la danza irlandese, che pratico dal 2014.
                     </p>
                     <p>
-                        Ne ho fatte di cose, nei musei. Visite guidate, didattica, progettazione dell'allestimento museale, creazione di percorsi didattici e di visita, persino traduzioni. Impossibile riassumere tutto in poche righe. E neppure è lo scopo di questi paragrafi.
+                        Ne ho fatte di cose, nei musei. Visite guidate, didattica, progettazione dell'allestimento museale, creazione di percorsi didattici e di visita, organizzazione di mostre ed eventi, persino traduzioni. Impossibile riassumere tutto in poche righe. 
+                    </p>
+                    <p>
+                        Nel mio lavoro in musei e luoghi della cultura, non è mai mancato il web. Mi sono occupata di comunicazione, di social media, di email marketing, di grafica, di foto e video, e di sviluppare siti web. 
+                    </p>
+                    <p>
+                        Meritano una menzione a parte gli eventi che ho organizzato.
                     </p>
                 </div>
                 <div class="images">
@@ -195,7 +182,22 @@
                     <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
-                    <h2 class="card-title">Turismo ed eventi</h2>
+                    <div class="header-flex-between">
+                        <h2 class="card-title">Organizzazione di eventi</h2>
+                        <a href="eventi.php" class="button button-main">Scopri di più</a>
+                    </div>
+                    <p>
+                        Mostre, concerti, serate danzanti, visite a tema e teatrali, spettacoli, rievocazioni, conferenze, proiezioni, presentazioni di libri (<a href="scrittura.php">anche miei!</a>), persino matrimoni! 
+                    </p>
+                    <p>
+                        L'elenco sarebbe lungo. Alcuni eventi sono diventati una tradizione e hanno visto decine di edizioni, uno su tutti <a href="misteri-castello.php">"I Misteri del Castello"</a>. Un evento speciale, uno spettacolo scritto e pensato per il luogo in cui si svolge, lavorando con un team affiatato e professionale, <a href="https://www.iannatampe.com/">l'Associazione Culturale Iannà Tampé</a>.
+                    </p>
+                    <p>
+                        Amo in particolare gli eventi dai temi insoliti, ad esempio quelli legati al mistero e al folklore. Ho adorato far parte dello staff dei <a href="http://www.autunnonero.com">Ghost Tour di Autunnonero</a> a Triora e Dolceacqua. Vestire i panni dello storyteller (in italiano e anche in inglese) è proprio nelle mie corde. 
+                    </p>
+                    <p>
+                        Negli eventi che ho organizzato o a cui ho partecipato come membro dello staff, mi è sempre piaciuto essere nel centro dell'azione, in prima linea, rivestendo anche un ruolo attivo nei confronti del pubblico. Amo ogni cosa dell'organizzazione eventi, prima, durante e dopo. 
+                    </p>
                 </div>
             </section>
 
