@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Rici86, qualcosa su di me | Coder, Crafter, Creative </title>
+    <title>Rici86, about me | Coder, Crafter, Creative </title>
 
     <!-- Meta tags  -->
-    <meta name="description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
+    <meta name="description" content="Front-end developer as a living, crafter and Irish dance nerd for passion" />
 	
     <meta property="article:author" content="https://www.facebook.com/rici86" />
     <meta property="og:title" content="Rici86 - Coder, Crafter, Creative" />
-    <meta property="og:description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
+    <meta property="og:description" content="Front-end developer as a living, crafter and Irish dance nerd for passion" />
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="../src/img/spirit-of-the-forest.jpg" />
 	
@@ -27,18 +27,18 @@
     <div id="main-container">
         <?php require_once 'include/nav.php';?>
 
-        <a href="../en/about.php" title="English" class="lang-switcher">
-            <img src="../src/img/eng.png" alt="English" class="lang">
+        <a href="../it/su-di-me.php" title="Italiano" class="lang-switcher">
+            <img src="../src/img/ita.png" alt="Italiano" class="lang">
         </a>
 
         <main>
             <section class="main-row">
                 <div class="card">
-                    <h1 class="card-title">Qualcosa su di me</h1>
+                    <h1 class="card-title">About me</h1>
                     <p>
-                        Benvenuto, navigante, nel mio piccolo porto del web. 
-                        <br>Se sei arrivato qui, suppongo tu voglia conoscermi un po' meglio. 
-                        <br>Mi presento, sono Sara, ma su internet mi sono sempre firmata Rici.
+                        Welcome to my tiny web harbour.
+                        <br>If you came thus far, I suppose you want to know me better.
+                        <br>I introduce myself, my name is Sara, but here on the web I've always been known as Rici.
                     </p>
                     <p>
                         <i>Professione:</i> Front-end developer in una software agency.

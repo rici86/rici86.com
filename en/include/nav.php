@@ -2,15 +2,15 @@
     $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 <nav>
-    <a href="../index.html" class="nav-logo">
+    <a href="../index-eng.html" class="nav-logo">
         <img src="../src/img/logobianco.png" alt="Rici86">
     </a>
     <div class="navbar" id="navigation">
-        <a href="su-di-me.php" class="button button-main <?= (in_array($activePage, ['su-di-me'])) ? 'active':''; ?>">Su di me</a>
-        <a href="sviluppo-web.php" class="button button-main">Sviluppo web</a>
-        <a href="eventi.php" class="button button-main">Eventi</a>
-        <a href="scrittura.php" class="button button-main">Scrittura</a>
-        <a href="fai-da-te.php" class="button button-main">Fai-da-te</a>
+        <a href="about.php" class="button button-main <?= (in_array($activePage, ['about'])) ? 'active':''; ?>">About me</a>
+        <a href="web-development.php" class="button button-main">Web development</a>
+        <a href="events.php" class="button button-main">Events</a>
+        <a href="writing.php" class="button button-main">Writing</a>
+        <a href="crafts.php" class="button button-main">Crafts</a>
     </div>
     
     <div class="navbar-toggler" onclick="mobileToggle()">
