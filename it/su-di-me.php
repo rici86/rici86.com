@@ -66,14 +66,14 @@
                 </div>
             </section>
 
-            <section class="main-row" id="percorso">                
+            <section class="main-row main-row-invert" id="percorso">                
                 <div class="images">
                     <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
                     <div class="header-flex-between">
                         <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
-                        <a href="sviluppo-web.php" class="button button-main">Scopri di più</a>
+                        <a href="sviluppo-web.php" class="button button-main button-small">Scopri di più</a>
                     </div>
                     <p>
                         Prima da autodidatta, aprendo il "cofano" dei siti fatti da altri per annusare cosa c'era dentro, dietro, sotto. Alla ricerca del motore che faceva funzionare le cose.
@@ -131,7 +131,7 @@
                 </div>
             </section>
             
-            <section class="main-row" id="archeo">
+            <section class="main-row main-row-invert" id="archeo">
                 <div class="images">
                     <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
                 </div>
@@ -177,14 +177,14 @@
                 </div>
             </section>
 
-            <section class="main-row" id="turismo">
+            <section class="main-row main-row-invert" id="turismo">
             <div class="images">
                     <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
                     <div class="header-flex-between">
                         <h2 class="card-title">Organizzazione di eventi</h2>
-                        <a href="eventi.php" class="button button-main">Scopri di più</a>
+                        <a href="eventi.php" class="button button-main button-small">Scopri di più</a>
                     </div>
                     <p>
                         Mostre, concerti, serate danzanti, visite a tema e teatrali, spettacoli, rievocazioni, conferenze, proiezioni, presentazioni di libri (<a href="scrittura.php">anche miei!</a>), persino matrimoni! 

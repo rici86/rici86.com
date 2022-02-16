@@ -100,6 +100,9 @@ a:focus-visible {
     border: solid var(--light);
     border-width: 1px 3px 1px 3px;
 }
+.button-small {
+    padding: 0.25rem 0.75rem;
+}
 
 /* languages  */
 .lang {
@@ -261,8 +264,8 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
-.main-row .images img {
-    max-width: 800px;
+.main-row .card {
+    width: calc(100% - 2.5rem);
 }
 .header-flex-between {
     display: flex;
@@ -272,6 +275,9 @@ main {
 .header-flex-between > * {
     height: max-content;
 }
+.header-flex-between .button {
+    white-space: nowrap;
+}
 
 /* cards  */
 .card {
@@ -280,8 +286,7 @@ main {
     color: var(--dark);
     padding: 1rem 1.25rem;
     margin-bottom: 1rem;
-    max-width: 800px;
-    width: 100%;
+    max-width: 768px;    
     justify-self: center;
 }
 
@@ -341,6 +346,9 @@ li:before {
     .main-row {
         grid-template-columns: 1fr;
     }
+    .main-row-invert .images {
+        order: 2;
+    }
 }
 @media all and (max-width: 800px) {
     .navbar-toggler {
@@ -387,6 +395,10 @@ li:before {
         width: 100%;
         transition: none;
     }
+    .card {
+        max-width: unset;
+        width: unset;
+    }
 }
 @media all and (max-width: 576px) {
     .photo {
@@ -400,6 +412,10 @@ li:before {
     }
     .home-right .photo {
         max-width: 100%;
+    }
+    .header-flex-between {
+        flex-direction: column;
+        margin-bottom: 1rem;
     }
 }
 @media all and (max-width: 480px) {
