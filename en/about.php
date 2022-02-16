@@ -41,24 +41,23 @@
                         <br>I introduce myself, my name is Sara, but here on the web I've always been known as Rici.
                     </p>
                     <p>
-                        <i>Professione:</i> Front-end developer in una software agency.
+                        <i>My job:</i> Front-end developer for a software agency.
                     </p>
                     <p>
-                        Detto così fa scena, con i paroloni complicati in inglese che piacciono tanto nei CV.
+                        Yes, saying that like this sounds quite good, with all the words we like to put in our CVs.
                     </p>
                     <p>
-                        <i>Laurea:</i> Archeologia classica.
+                        <i>My masters degree:</i> Archaeology.
                     </p>
                     <p>
-                        Eh no, un momento, questo è strano. 
-                        <br>Niente laurea in informatica? Design? Ingegneria? Nessun esame di Analisi?
+                        Well, I know this sounds odd. 
+                        <br>No computer science degree, no engineering, no design.                         
                     </p>
                     <p>
-                        Esatto, proprio così. 
-                        <br>Greco, latino e pratica di scavo.
+                        Just Greek, Latin, history and digs.
                     </p>
                     <p>
-                        <i>Ma allora come sei finita a sviluppare in una software agency</i>, ti starai chiedendo.
+                        I hear you asking now <i>"How did you happen to be a developer for a company that crafts software for other companies, then?"</i>
                     </p>
                 </div>
                 <div class="images">
@@ -72,8 +71,8 @@
                 </div>
                 <div class="card">
                     <div class="header-flex-between">
-                        <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
-                        <a href="sviluppo-web.php" class="button button-main button-small">Scopri di più</a>
+                        <h2 class="card-title">My path towards web development </h2>
+                        <a href="web-development.php" class="button button-main button-small">More</a>
                     </div>
                     <p>
                         Prima da autodidatta, aprendo il "cofano" dei siti fatti da altri per annusare cosa c'era dentro, dietro, sotto. Alla ricerca del motore che faceva funzionare le cose.
@@ -99,7 +98,7 @@
 
             <section class="main-row" id="oggi">
                 <div class="card">
-                    <h2 class="card-title">Il mio lavoro oggi</h2>
+                    <h2 class="card-title">My job today</h2>
                     <p>
                         Ed eccomi qui, a sporcarmi le mani con CSS (il mio primo amore), HTML, SASS, Php, Javascript e cugini, Laravel e non solo. 
                     </p>
@@ -136,7 +135,7 @@
                     <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
-                    <h2 class="card-title">E il mio passato "archeologico"?</h2>
+                    <h2 class="card-title">What about my "archaeological" past?</h2>
                     <p>
                         Ho frequentato l'università a Pavia, dove mi sono laureata in Archeologia Classica e Scienze dei Beni Culturali. 
                     </p>
@@ -155,7 +154,7 @@
 
             <section class="main-row" id="irlanda">
                 <div class="card">
-                    <h2 class="card-title">Operatore museale in Italia e in Irlanda</h2>
+                    <h2 class="card-title">Tourist guide in Italy and Ireland</h2>
                     <p>
                         Ho lavorato per musei e luoghi della cultura per anni, in un museo in particolare per 16 anni. Molti ancora oggi mi conoscono come "la castellana" a causa di quella esperienza al Castello di Zavattarello. Di quel museo sono stata anche direttore, ho ideato e organizzato molti eventi, quindi è normale che questa etichetta mi rimanga stampata addosso indelebile. 
                     </p>
@@ -183,8 +182,8 @@
                 </div>
                 <div class="card">
                     <div class="header-flex-between">
-                        <h2 class="card-title">Organizzazione di eventi</h2>
-                        <a href="eventi.php" class="button button-main button-small">Scopri di più</a>
+                        <h2 class="card-title">Event organiser</h2>
+                        <a href="events.php" class="button button-main button-small">More</a>
                     </div>
                     <p>
                         Mostre, concerti, serate danzanti, visite a tema e teatrali, spettacoli, rievocazioni, conferenze, proiezioni, presentazioni di libri (<a href="scrittura.php">anche miei!</a>), persino matrimoni! 
