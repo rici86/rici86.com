@@ -173,7 +173,7 @@
                     </p>
                 </div>
                 <div class="images">
-                    <img src="../src/img/foto/2013-cork.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2011-visitamuseale.jpg" alt="" class="img-responsive photo">
                 </div>
             </section>
 
