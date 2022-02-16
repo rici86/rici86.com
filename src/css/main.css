@@ -417,7 +417,8 @@ li:before {
         padding: 1rem;
     }
     .home-right .photo {
-        max-width: 100%;
+        /* max-width: 100%; */
+        max-width: calc(100% - 2rem);
     }
     .header-flex-between {
         flex-direction: column;
@@ -428,5 +429,8 @@ li:before {
     .home-left .logo {
         max-width: 100%;
         height: auto;
+    }
+    .main-row {
+        padding: 0;
     }
 }
