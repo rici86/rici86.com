@@ -52,9 +52,9 @@ a:focus,
 a:active {
     color: var(--accent);
 }
-a:visited {
+/* a:visited {
     color: var(--medium);
-}
+} */
 a:focus-visible {
     color: var(--accent);
     outline: 1px solid var(--accent);
@@ -94,7 +94,8 @@ a:focus-visible {
     border: solid var(--dark);
     border-width: 1px 3px 1px 3px;
 }
-.button-main:hover {
+.button-main:hover,
+a.button-main:hover {
     background-color: var(--medium);
     color: var(--light);
     border: solid var(--light);
@@ -154,7 +155,9 @@ nav .button.active {
     background-color: var(--medium);
     color: var(--light);
 }
-nav .button.active:hover {
+nav .button.active:hover,
+nav .button.active:focus,
+nav .button.active:visited {
     background-color: var(--medium);
     color: var(--light);
 }
@@ -348,6 +351,9 @@ li:before {
     }
     .main-row-invert .images {
         order: 2;
+    }
+    .home-right .photo {
+        max-width: 100%;
     }
 }
 @media all and (max-width: 800px) {
