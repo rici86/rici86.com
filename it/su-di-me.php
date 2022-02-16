@@ -31,7 +31,7 @@
             <img src="../src/img/eng.png" alt="English" class="lang">
         </a>
 
-        <main>
+        <main class="shape-divider">
             <section class="main-row">
                 <div class="card">
                     <h1 class="card-title">Qualcosa su di me</h1>
