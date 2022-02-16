@@ -348,6 +348,8 @@ li:before {
 @media all and (max-width: 992px) {
     .main-row {
         grid-template-columns: 1fr;
+          
+        margin-bottom: 1rem;
     }
     .main-row-invert .images {
         order: 2;
