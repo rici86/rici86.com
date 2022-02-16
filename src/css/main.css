@@ -199,11 +199,27 @@ footer {
     background-color: var(--primary);
 }
 .footer-container {
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     justify-content: space-between;
+}
+.footer-container a {
+    color: var(--light);
+}
+.footer-container a:hover {
+    color: var(--accent);
+}
+.footer-container .logo img {
+    max-width: 180px;
+}
+.footer-container .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
 }
 
 /* Home page  */
