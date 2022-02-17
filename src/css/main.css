@@ -259,6 +259,11 @@ main.with-shape-divider {
     place-items: center;
     overflow: hidden;
 }
+#main-container {
+    display: grid;
+    grid-template-rows: max-content 100% max-content;
+    min-height: 100vh;
+}
 .home-container,
 #main-container {
     background-image: url(../img/spirit-bg.jpg);
