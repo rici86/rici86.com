@@ -241,18 +241,13 @@ main.with-shape-divider {
     place-items: center;
     overflow: hidden;
 }
-.home-container::before,
-#main-container::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-image: url(../img/spiritfooter.jpg);
+.home-container,
+#main-container {
+    background-image: url(../img/spirit-bg.jpg);
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: blur(3px);
-    z-index: -1;
 }
 .home-left, 
 .home-right {
