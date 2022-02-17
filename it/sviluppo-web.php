@@ -21,6 +21,11 @@
     <!-- Css  -->
     <link href="../src/css/main.css" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
+
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
+
 </head>
 
 <body>
@@ -51,6 +56,9 @@
         <?php require_once 'include/footer.php';?>
 
     </div>
+
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick.min.js"/>
 
     <!-- <?php require_once 'include/end.php';?> -->
 
