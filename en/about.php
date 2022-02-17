@@ -140,7 +140,8 @@
                         I studied at the University of Pavia, where I got a master's degree in Classica Archaeology and a bachelor's degree in Cultural Heritage. 
                     </p>
                     <p>
-                        During and after the university years, I worked a lot in museums, as tourist guide and museum educator. For several years I've been taking archaeology in schools, first with the CRIDACT Department of the Unviersity of Pavia, then with a cultural association. I worked as a museum educator in several museums. I also created new educational laboratories, one of which was published in the proceedings of a school about Medieval landscape studies. 
+                        During and after the university years, I worked a lot in museums, as tourist guide and museum educator. For several years I've been taking archaeology in schools, first with the CRIDACT Department of the Unviersity of Pavia, then with a cultural association. 
+                        <br>I worked as a museum educator in several museums. I also created new educational laboratories, one of which was published in the proceedings of a school about Medieval landscape studies. 
                     </p>
                     <p>
                         I participated in dig campaigns, as a student and as a professional archaeologist. Not just field dig, but also recordings of findings, maps, drawings, documentation.
@@ -188,16 +189,18 @@
                         <a href="events.php" class="button button-main button-small">More</a>
                     </div>
                     <p>
-                        Mostre, concerti, serate danzanti, visite a tema e teatrali, spettacoli, rievocazioni, conferenze, proiezioni, presentazioni di libri (<a href="scrittura.php">anche miei!</a>), persino matrimoni! 
+                        Art exhibitions, concerts, dancing nights, theatre plays, guided tours with actors, shows, reenactments, conferences, books presentations (<a href="writing.php">mine, also!</a>), even weddings! 
                     </p>
                     <p>
-                        L'elenco sarebbe lungo. Alcuni eventi sono diventati una tradizione e hanno visto decine di edizioni, uno su tutti <a href="misteri-castello.php">"I Misteri del Castello"</a>. Un evento speciale, uno spettacolo scritto e pensato per il luogo in cui si svolge, lavorando con un team affiatato e professionale, <a href="https://www.iannatampe.com/">l'Associazione Culturale Iannà Tampé</a>.
+                        The full list would be long. Some events have become a yearly tradition and saw dozens of editions. 
+                        <br>One for all: <a href="mysteries_castle.php">"The Mysteries of the Castle"</a>. A special eventi, a travelling play written and conceived for the place where it takes place. For this event I work with a close-knit professional team, <a href="https://www.iannatampe.com/">Iannà Tampé Cultural Association</a>.
                     </p>
                     <p>
-                        Amo in particolare gli eventi dai temi insoliti, ad esempio quelli legati al mistero e al folklore. Ho adorato far parte dello staff dei <a href="http://www.autunnonero.com">Ghost Tour di Autunnonero</a> a Triora e Dolceacqua. Vestire i panni dello storyteller (in italiano e anche in inglese) è proprio nelle mie corde. 
+                        I mainly love events with unusual topics, for example mystery and folklore. 
+                        <br>I'm very proud I was part of the team for <a href="http://www.autunnonero.com">the Ghost Tours by Autunnonero</a> in Triora and Dolceacqua. Being a storyteller (in italian and also in english) suits me well. 
                     </p>
                     <p>
-                        Negli eventi che ho organizzato o a cui ho partecipato come membro dello staff, mi è sempre piaciuto essere nel centro dell'azione, in prima linea, rivestendo anche un ruolo attivo nei confronti del pubblico. Amo ogni cosa dell'organizzazione eventi, prima, durante e dopo. 
+                        In all the events I organised or took part of as a member of the staff, I've always been in the middle of the action, having not just an organiser role, but also an active one towards the audience. I love everything about event organisation, from start to end. 
                     </p>
                 </div>
             </section>
