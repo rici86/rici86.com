@@ -31,7 +31,7 @@
             <img src="../src/img/ita.png" alt="Italiano" class="lang">
         </a>
 
-        <main>
+        <main class="with-shape-divider">
             <section class="main-row">
                 <div class="card">
                     <h1 class="card-title">About me</h1>
@@ -75,23 +75,23 @@
                         <a href="web-development.php" class="button button-main button-small">More</a>
                     </div>
                     <p>
-                        Prima da autodidatta, aprendo il "cofano" dei siti fatti da altri per annusare cosa c'era dentro, dietro, sotto. Alla ricerca del motore che faceva funzionare le cose.
+                        At the beginning, I played the self-taught webdesigner, studying the code of others to dig inside, behind, under the lines, looking for the engine moving each part.
                     </p>
                     <p>
-                        Poi trovando corsi, mano a mano che la mia voglia di imparare e di specializzarmi cresceva.
+                        Then I began with courses, and each time my longing for improvement and learning got stronger and stronger.
                     </p>
                     <p>
-                        Ho fatto tanta esperienza sul campo: ho iniziato subito con piccoli lavoretti, anche durante l'università, per capire poi che era questo il mondo che volevo davvero, la professione giusta per me.
+                        I did a lot of "field experience": I started with small commissions during the university years. Then after a while I realised that <i>this</i> was indeed the world I really wanted for me. <i>This</i> was the job I thought right for me.
                     </p>
                     <p>
-                        E così ho trovato persone più esperte con cui lavorare, per cui sviluppare piccoli progetti. Ho messo da parte avidamente ogni cosa che potevo imparare.
+                        So, I found more expert developers to work with, building small projects for them o with them. I collected anything I could learn and store in my new coding luggage.
                     </p>
                     <p>
-                        Ho seguito corsi in aula, poi ho scoperto la potenza vera delle community sul web: siti specializzati, newsletter di aggiornamento, corsi online di approfondimento, tutorial per tutti i livelli.
+                        After following classroom course, I discovered the power of web communities: web sites, newsletters, online courses, tutorials, videos.
                     </p>
                     <p>
-                        Dopo diverse candidature e colloqui, mi hanno assunta. Per fare questo lavoro.                    
-                        <br>Prima una startup, poi una web agency, poi una casa editrice, infine la software agency dove ora faccio il lavoro che sognavo.
+                        When I felt more at ease, I started with job applications and interviews. It was long, but one day I saw they began believing in me.
+                        <br>A startup, first, a web agency, a publishing house, then finally the company for which now I do the job of my dreams.
                     </p>
                 </div>
             </section>
@@ -100,19 +100,19 @@
                 <div class="card">
                     <h2 class="card-title">My job today</h2>
                     <p>
-                        Ed eccomi qui, a sporcarmi le mani con CSS (il mio primo amore), HTML, SASS, Php, Javascript e cugini, Laravel e non solo. 
+                        And here I am, now, happy with CSS (my first love), HTML, SASS, Javascript and the like, Php, Laravel and more. 
                     </p>
                     <p>
-                        In un'azienda che realizza software personalizzato per altre aziende per gli usi più disparati e i casi più singolari, mi occupo di studiare i nuovi progetti con i clienti, realizzare demo interattive da aggiustare insieme fino ad arrivare a una base condivisa da cui sviluppare il prodotto finito.
+                        I'm in a company that crafts custom software for other companies for any kind of use cases, and here I'm in charge of planning new projects with customers, making interactive demos to be refined together until we reach the basis from which to develop the final product.
                     </p>
                     <p>
-                        Il mio lavoro passa quindi alla fase di sviluppo, a cui partecipo attivamente: inizializzo il progetto, dalla grafica alle prime comunicazioni con il database, lavorando in sinergia con gli sviluppatori backend, a cui tocca poi il compito di dare vita alle funzionalità più complesse che ho disegnato.
+                        My work then goes to the development phase, and here I'm an active part: I start the project, from building the user interface to the first interactions with the database, working closely with backend developers, who then will give life to the more complex features I've drawn.  
                     </p>
                     <p>
-                        Cosa mi piace soprattutto? Che non si smette mai di imparare, di incontrare nuovi linguaggi, di scoprire nuovi modi di fare le cose e nuovi modi di tradurre in codice ciò che esiste nella mia testa o nei miei onnipresenti disegni.
+                        What I like most? I never stop learning, discovering new languages, finding new ways to make things and new ways to translate with code what I imagine in my mind or draw on my sketchbook.
                     </p>
                     <p>
-                        Ho la possibilità di mettere davvero le mani sotto il cofano, come ho sempre voluto fare. Di chiedere, di osservare, di provare, di imparare. 
+                        I really can dive deep under the hood, as I always wanted to do. I ask, observe, try, learn. 
                     </p>
                     
                     <div class="icons-container">
@@ -137,17 +137,19 @@
                 <div class="card">
                     <h2 class="card-title">What about my "archaeological" past?</h2>
                     <p>
-                        Ho frequentato l'università a Pavia, dove mi sono laureata in Archeologia Classica e Scienze dei Beni Culturali. 
+                        I studied at the University of Pavia, where I got a master's degree in Classica Archaeology and a bachelor's degree in Cultural Heritage. 
                     </p>
                     <p>
-                        Durante e dopo gli studi, ho fatto molta esperienza nei musei, come guida museale e come operatore didattico. Per diversi anni ho lavorato a progetti di didattica dell'archeologia nelle scuole, prima con il CRIDACT dell'Università di Pavia e poi con un'associazione culturale. Ho lavorato come operatore didattico anche all'interno di diversi musei. Di laboratori didattici ne ho anche creati, e uno è stato pubblicato in un volume di studi sul paesaggio medievale. 
+                        During and after the university years, I worked a lot in museums, as tourist guide and museum educator. For several years I've been taking archaeology in schools, first with the CRIDACT Department of the Unviersity of Pavia, then with a cultural association. I worked as a museum educator in several museums. I also created new educational laboratories, one of which was published in the proceedings of a school about Medieval landscape studies. 
                     </p>
                     <p>
-                        Ho partecipato a campagne di scavo, sia da studente sia come archeologo professionista. Non solo scavo vero e proprio, ma anche catalogazione dei materiali, rilievi, disegni, documentazione di scavo. 
+                        I participated in dig campaigns, as a student and as a professional archaeologist. Not just field dig, but also recordings of findings, maps, drawings, documentation.
                     </p>
-                    <p>Ah, il disegno! Fin da piccola adoravo disegnare, passione che è rimasta nel tempo. Anche durante la tesi o gli scavi ho adorato il disegno archeologico. Tavole di cocci, planimetrie, sezioni... che fossero a matita o digitali, mi piaceva molto questa parte delle mie mansioni. </p>
                     <p>
-                        La mia vera passione erano, però, i musei, con una forte propensione verso il turismo culturale e archeologico.
+                        Yes, also drawing. I've always loved drawing, since childhood, and this passion remained as a grown-up. Also during my master's thesis or on digs I loved when I could do archaeological drawing. Plans, sections, findings drawings... it didn't matter if made with a pencil or a pc, I really loved this part of my work.
+                    </p>
+                    <p>
+                        My main passion, though, were museums, with a strong inclination for tourism.
                     </p>
                 </div>
             </section>
@@ -199,6 +201,8 @@
                     </p>
                 </div>
             </section>
+
+            <?php require_once '../include/shape-divider.php';?>
 
         </main>
 
