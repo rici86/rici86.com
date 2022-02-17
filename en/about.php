@@ -210,6 +210,7 @@
         </main>
 
         <?php require_once 'include/footer.php';?>
+        <?php require_once '../include/torna-su.php';?>
 
     </div>
 

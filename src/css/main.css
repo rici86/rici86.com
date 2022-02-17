@@ -137,6 +137,24 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Torna su  */
+#torna-su {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--light);
+    color: var(--medium);
+    opacity: 0.5;
+    padding: 0.12rem 0.5rem;
+    border-radius: 50%;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
 /* Navigation  */
 nav {
     padding: 0.75rem 1rem;
