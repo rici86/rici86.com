@@ -201,7 +201,7 @@
                 </div>
             </section>
             
-            <?php require_once 'include/shape-divider.php';?>
+            <?php require_once '../include/shape-divider.php';?>
 
         </main>
 
