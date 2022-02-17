@@ -31,7 +31,7 @@
             <img src="../src/img/eng.png" alt="English" class="lang">
         </a>
 
-        <main class="shape-divider">
+        <main class="with-shape-divider">
             <section class="main-row">
                 <div class="card">
                     <h1 class="card-title">Qualcosa su di me</h1>
@@ -178,7 +178,7 @@
             </section>
 
             <section class="main-row main-row-invert" id="turismo">
-            <div class="images">
+                <div class="images">
                     <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
@@ -200,6 +200,8 @@
                     </p>
                 </div>
             </section>
+            
+            <?php require_once 'include/shape-divider.php';?>
 
         </main>
 
