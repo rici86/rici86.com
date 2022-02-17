@@ -158,19 +158,19 @@
                 <div class="card">
                     <h2 class="card-title">Tourist guide in Italy and Ireland</h2>
                     <p>
-                        Ho lavorato per musei e luoghi della cultura per anni, in un museo in particolare per 16 anni. Molti ancora oggi mi conoscono come "la castellana" a causa di quella esperienza al Castello di Zavattarello. Di quel museo sono stata anche direttore, ho ideato e organizzato molti eventi, quindi è normale che questa etichetta mi rimanga stampata addosso indelebile. 
+                        I've been working in museums and cultural heritage sites for several years, in a particular museum for 16 years. Even today most refer to me as "the castle keeper" because of that long experience working for the Castle of Zavattarello. There, I've been the director for many years, I conceived and organised several events, so I think it's normal that I will keep forever this undeletable label. 
                     </p>
                     <p>
-                        Non solo in Italia: ho lavorato anche in un museo in Irlanda. Un'esperienza che ha lasciato il segno, di cui ho scritto molto <a href="https://rici86.blogspot.com/search/label/Rici%27s%20Irish%20Adventures">sul mio blog</a>. E il segno è rimasto tracciato in profondità nella mia passione attuale per la danza irlandese, che pratico dal 2014.
+                        But not only in Italy: I worked also for a museum in Ireland. An experience that left a mark on me, about which I wrote a lot <a href="https://rici86.blogspot.com/search/label/Rici%27s%20Irish%20Adventures">on my personal blog</a>. Thsi deep mark has strong evidence in my current passion for Irish dance, that I began practising in 2014. 
                     </p>
                     <p>
-                        Ne ho fatte di cose, nei musei. Visite guidate, didattica, progettazione dell'allestimento museale, creazione di percorsi didattici e di visita, organizzazione di mostre ed eventi, persino traduzioni. Impossibile riassumere tutto in poche righe. 
+                        I did a lot of things, in museums. Guided tours, educational laboratories, reorganisation of the exhibit display or visitor's tours, creation of new activities for schools and visitors, organisation of exhibitions and events, even translations. Summarising everything in a few lines would be impossible.
                     </p>
                     <p>
-                        Nel mio lavoro in musei e luoghi della cultura, non è mai mancato il web. Mi sono occupata di comunicazione, di social media, di email marketing, di grafica, di foto e video, e di sviluppare siti web. 
+                        And while working for museums or cultural heritage sites, I also worked with the web. I took care of communication, social media, email markering, graphics, photos, video shootings, web development. 
                     </p>
                     <p>
-                        Meritano una menzione a parte gli eventi che ho organizzato.
+                        I would give a special mention to the events I organised.
                     </p>
                 </div>
                 <div class="images">
