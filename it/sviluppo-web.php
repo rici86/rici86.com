@@ -41,7 +41,16 @@
                 <div class="card">
                     <h1 class="card-title">Siti web</h1>
                     <p>
-                        
+                        Ho iniziato con un piccolo sito dedicato a una delle mie passioni ai tempi del liceo, poi ho cominciato a realizzare siti web per conoscenti e amici. Dopo un paio d'anni, sono venuti a chiedermi collaborazioni più o meno durature anche aziende e altre realtà.
+                    </p>
+                    <p>
+                        Ristoranti, piccole aziende, artisti, enti pubblici, associazioni, negozi, squadre sportive... ho perso il conto di tutti i progetti che ho realizzato. 
+                    </p>
+                    <p>
+                        Prediligo HTML e CSS, con tutti i contorni del caso, ma non disdegno l'uso di CMS quando serve. Wordpress è quello che ho usato di più, ma non il solo.  
+                    </p>
+                    <p>
+                        I siti di cui sono più orgogliosa? Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. Il sito dell'Associazione Culturale Anemos, il mio primo sito responsive. 
                     </p>
                 </div>
                 <div class="images">
