@@ -50,12 +50,40 @@
                         Prediligo HTML e CSS, con tutti i contorni del caso, ma non disdegno l'uso di CMS quando serve. Wordpress è quello che ho usato di più, ma non il solo.  
                     </p>
                     <p>
-                        I siti di cui sono più orgogliosa? Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. Il sito dell'Associazione Culturale Anemos, il mio primo sito responsive. 
+                        I siti di cui sono più orgogliosa? 
+                        <br>Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. 
+                        <br>Il sito dell'Associazione Culturale Anemos, il mio primo sito responsive. 
+                        <br>Anche il sito di MI GAMES League Beach Volley, il primo template Wordpress che ho quasi totalmente ridisegnato. 
+                        <br>Ovviamente il sito dedicato ai <a href="fai-da-te.php">lavori di fai-da-te di famiglia</a>, #LRCrafts!
                     </p>
 
                     <?php require_once '../include/code-icons.php';?>
                 </div>
-                <div class="images">
+                <div class="">
+                    <div class="slider-siti">
+                        <div class="box-sito">
+                            <img src="../src/portfolio/bottondoro.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Bottondoro - Vestiti spensierati</p>
+                                    <p class="sito-date">2021</p>
+                                </div>
+                                <p class="sito-url">www.bottondoro.eu</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/alessandralocatelli.jpg" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Alessandra Locatelli</p>
+                                    <p class="sito-date">2016</p>
+                                </div>
+                                <p class="sito-url">www.alessandralocatelli.it</p>
+                                
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
             </section>
@@ -69,7 +97,22 @@
     </div>
 
     <!-- slick slider  -->
-    <link rel="stylesheet" type="text/css" href="../src/slick/slick.min.js"/>
+    <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
+    <script type="text/javascript" src="../src/slick/slick.min.js"></script>
+    <script>
+        $('.slider-siti').slick({
+            rows: 1,
+            infinite: true,
+            autoplay: false,
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            swipe: true,
+            swipeToSlide: true,
+            pauseOnHover: true
+        });
+    </script>
 
     <!-- <?php require_once 'include/end.php';?> -->
 
