@@ -137,6 +137,17 @@ p {
     margin-bottom: 1rem;
 }
 
+/* code examples  */
+pre code {
+    display: block;
+    padding: 0 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--light);
+    background-color: var(--dark);
+}
+
 /* Torna su  */
 #torna-su {
     position: fixed;
@@ -268,7 +279,7 @@ main.with-shape-divider {
 #main-container {
     background-image: url(../img/spirit-bg.jpg);
     background-position: left top;
-    background-size: cover;
+    background-size: 150%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
