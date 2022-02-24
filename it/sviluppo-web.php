@@ -52,6 +52,8 @@
                     <p>
                         I siti di cui sono più orgogliosa? Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. Il sito dell'Associazione Culturale Anemos, il mio primo sito responsive. 
                     </p>
+
+                    <?php require_once '../include/code-icons.php';?>
                 </div>
                 <div class="images">
                     
