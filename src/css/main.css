@@ -438,6 +438,13 @@ p.sito-url {
     margin-bottom: 0;
 }
 
+/* Slick slider  */
+/* To prevend slider from getting too big */
+* {
+    min-height: 0;
+    min-width: 0;
+}
+
 /* media queries  */
 @media all and (max-width: 1200px) {
     .home-container {
