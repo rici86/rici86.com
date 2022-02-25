@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
     <!-- Css  -->
-    <link href="../src/css/main.css" rel="stylesheet">
+    <link href="../src/css/main.css?v=1.1" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
 
     <!-- slick slider  -->
@@ -110,11 +110,12 @@
             slidesToScroll: 1,
             swipe: true,
             swipeToSlide: true,
-            pauseOnHover: true
+            pauseOnHover: true,
+            lazyLoad: 'ondemand'
         });
     </script>
 
-    <!-- <?php require_once 'include/end.php';?> -->
+    <!-- <?php require_once 'include/footer.php';?> -->
 
 </body>
 </html>

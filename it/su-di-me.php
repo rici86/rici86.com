@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
     <!-- Css  -->
-    <link href="../src/css/main.css" rel="stylesheet">
+    <link href="../src/css/main.css?v=1.1" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
 </head>
 
