@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
     <!-- Css  -->
-    <link href="../src/css/main.css?v=1.1" rel="stylesheet">
+    <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
 
     <!-- slick slider  -->
@@ -73,6 +73,50 @@
                             </div>
                         </div>
                         <div class="box-sito">
+                            <img src="../src/portfolio/lrcrafts.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">#LRCrafts - If you can think it you can make it</p>
+                                    <p class="sito-date">2021 - <?php echo date("Y"); ?></p>
+                                </div>
+                                <p class="sito-url">www.lrcrafts.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/sinergo.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Sinergo Enterprise</p>
+                                    <p class="sito-date">2020 - <?php echo date("Y"); ?></p>
+                                </div>
+                                <p class="sito-url">www.sinergo.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/amadeus.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Amadeus Magazine</p>
+                                    <p class="sito-date">2019</p>
+                                </div>
+                                <p class="sito-url">www.amadeusmagazine.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/techseed.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Techseed S.R.L.</p>
+                                    <p class="sito-date">2020 - <?php echo date("Y"); ?></p>
+                                </div>
+                                <p class="sito-url">www.techseed.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
                             <img src="../src/portfolio/alessandralocatelli.jpg" alt="" class="img-responsive">
                             <div class="sito-description">
                                 <div>
@@ -104,7 +148,7 @@
             rows: 1,
             infinite: true,
             autoplay: false,
-            arrows: false,
+            arrows: true,
             dots: true,
             slidesToShow: 1,
             slidesToScroll: 1,

@@ -416,6 +416,7 @@ li:before {
     border-radius: var(--main-border-radius);
 }
 .box-sito img {
+    aspect-ratio: 16 / 9;
     border-top-left-radius: var(--main-border-radius);
     border-top-right-radius: var(--main-border-radius);
 }
@@ -443,6 +444,17 @@ p.sito-url {
 * {
     min-height: 0;
     min-width: 0;
+}
+/* slick slider override  */
+.slick-dots {
+    bottom: -15px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.slick-list {
+    border-top-left-radius: var(--main-border-radius);
+    border-top-right-radius: var(--main-border-radius);
 }
 
 /* media queries  */
