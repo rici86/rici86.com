@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Il mio portfolio web | Coder, Crafter, Creative </title>
+    <title>Il mio portfolio web | Rici86: Coder, Crafter, Creative </title>
 
     <!-- Meta tags  -->
     <meta name="description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
@@ -33,7 +33,7 @@
     <div id="main-container">
         <?php require_once 'include/nav.php';?>
 
-        <a href="../en/about.php" title="English" class="lang-switcher">
+        <a href="../en/web-development.php" title="English" class="lang-switcher">
             <img src="../src/img/eng.png" alt="English" class="lang">
         </a>
 
