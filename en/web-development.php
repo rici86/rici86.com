@@ -42,20 +42,20 @@
                 <div class="card">
                     <h1 class="card-title">Web sites</h1>
                     <p>
-                        Ho iniziato con un piccolo sito dedicato a una delle mie passioni ai tempi del liceo, poi ho cominciato a realizzare siti web per conoscenti e amici. Dopo un paio d'anni, sono venuti a chiedermi collaborazioni più o meno durature anche aziende e altre realtà.
+                        I started with a small website about one of my high school passions, then I began making websites for friends. After a couple of years, companies and the like came to me for collaborations.
                     </p>
                     <p>
-                        Ristoranti, piccole aziende, artisti, enti pubblici, associazioni, negozi, squadre sportive... ho perso il conto di tutti i progetti che ho realizzato. 
+                        Restaurants, small companies, artists, institutions, associations, shops, sport teams... I lost count of all the projects I developed.
                     </p>
                     <p>
-                        Prediligo HTML e CSS, con tutti i contorni del caso, ma non disdegno l'uso di CMS quando serve. Wordpress è quello che ho usato di più, ma non il solo.  
+                        I favour working with HTML and CSS, with all related languages, but I also work with CMS when needed. Wordpress is the one I used most, but not the only one.
                     </p>
                     <p>
-                        I siti di cui sono più orgogliosa? 
-                        <br>Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. 
-                        <br>Il sito dell'Associazione Anemos, il mio primo sito responsive. 
-                        <br>Anche il sito di MI GAMES League Beach Volley, il primo template Wordpress che ho quasi totalmente ridisegnato. 
-                        <br>Ovviamente il sito dedicato ai <a href="crafts.php">lavori di fai-da-te di famiglia</a>, #LRCrafts!
+                        The projects I'm more proud of?
+                        <br>The website of the Municipality of Zavattarello: I managed it for more than ten years, restyling it twice. It's also my best SEO strategy ever. 
+                        <br>The portal for the Anemos Association was my first responsive website. 
+                        <br>I have to mentions also the MI GAMES League Beach Volley website, the first Wordpress template I almost completely redesigned.
+                        <br>Obviously I'm proud of the website dedicated to <a href="crafts.php">our family crafts</a>, #LRCrafts!
                     </p>
 
                     <?php require_once '../include/code-icons.php';?>

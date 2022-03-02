@@ -52,7 +52,7 @@
                     </p>
                     <p>
                         I siti di cui sono più orgogliosa? 
-                        <br>Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. 
+                        <br>Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. É anche il mio miglior risultato in termini di strategia SEO.
                         <br>Il sito dell'Associazione Anemos, il mio primo sito responsive. 
                         <br>Anche il sito di MI GAMES League Beach Volley, il primo template Wordpress che ho quasi totalmente ridisegnato. 
                         <br>Ovviamente il sito dedicato ai <a href="fai-da-te.php">lavori di fai-da-te di famiglia</a>, #LRCrafts!
