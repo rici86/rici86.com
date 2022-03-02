@@ -52,7 +52,7 @@
                     <p>
                         I siti di cui sono più orgogliosa? 
                         <br>Quello del Comune di Zavattarello, di cui mi sono occupata per più di dieci anni e del quale ho realizzato due restyling. 
-                        <br>Il sito dell'Associazione Culturale Anemos, il mio primo sito responsive. 
+                        <br>Il sito dell'Associazione Anemos, il mio primo sito responsive. 
                         <br>Anche il sito di MI GAMES League Beach Volley, il primo template Wordpress che ho quasi totalmente ridisegnato. 
                         <br>Ovviamente il sito dedicato ai <a href="fai-da-te.php">lavori di fai-da-te di famiglia</a>, #LRCrafts!
                     </p>
@@ -117,6 +117,17 @@
                             </div>
                         </div>
                         <div class="box-sito">
+                            <img src="../src/portfolio/watchdigest.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Watch Digest</p>
+                                    <p class="sito-date">2019</p>
+                                </div>
+                                <p class="sito-url">www.watchdigest.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
                             <img src="../src/portfolio/riders.png" alt="" class="img-responsive">
                             <div class="sito-description">
                                 <div>
@@ -153,11 +164,40 @@
                             <img src="../src/portfolio/alessandralocatelli.jpg" alt="" class="img-responsive">
                             <div class="sito-description">
                                 <div>
-                                    <p class="sito-titolo">Alessandra Locatelli</p>
+                                    <p class="sito-titolo">Alessandra Locatelli, Mortara (Pv)</p>
                                     <p class="sito-date">2016</p>
                                 </div>
-                                <p class="sito-url">www.alessandralocatelli.it</p>
-                                
+                                <p class="sito-url">www.alessandralocatelli.it</p>                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/anemos.jpg" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Associazione Anemos, Ispra (Va)</p>
+                                    <p class="sito-date">2015 - 2016</p>
+                                </div>
+                                <p class="sito-url">www.anemosispra.it</p>                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/ricinnamon.jpg" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Ricinnamon Video Productions, Melegnano (Mi)</p>
+                                    <p class="sito-date">2015 </p>
+                                </div>
+                                <p class="sito-url">www.ricinnamon.com</p>                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/zavattarello.jpg" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Comune di Zavattarello (Pv)</p>
+                                    <p class="sito-date">2007 - 2020</p>
+                                </div>
+                                <p class="sito-url">www.zavattarello.org</p>                                
                             </div>
                         </div>
                     </div>
