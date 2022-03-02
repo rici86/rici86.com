@@ -5,5 +5,6 @@
     <i class="fab fa-js-square"></i>
     <i class="fab fa-php"></i>
     <i class="fab fa-laravel"></i>
+    <i class="fab fa-bootstrap"></i>
     <i class="fab fa-git-alt"></i>
 </div>
