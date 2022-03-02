@@ -421,7 +421,7 @@ p.sito-url {
 }
 /* slick slider override  */
 .slick-dots {
-    bottom: -15px;
+    bottom: 0px;
 }
 .slick-dotted.slick-slider {
     margin-bottom: 0;
@@ -454,6 +454,9 @@ p.sito-url {
 .slick-list, 
 .slick-slide.box-sito {
     border-radius: var(--main-border-radius);
+}
+.slick-prev::before, .slick-next::before {
+    color: var(--light);
 }
 
 /* media queries  */
