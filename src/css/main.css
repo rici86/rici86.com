@@ -453,8 +453,6 @@ p.sito-url {
 }
 .slick-list, 
 .slick-slide.box-sito {
-    /* border-top-left-radius: var(--main-border-radius);
-    border-top-right-radius: var(--main-border-radius); */
     border-radius: var(--main-border-radius);
 }
 

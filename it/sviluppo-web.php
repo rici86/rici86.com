@@ -21,11 +21,10 @@
     <!-- slick slider  -->
     <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
-    
+
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
-
 
 </head>
 
@@ -96,6 +95,17 @@
                             </div>
                         </div>
                         <div class="box-sito">
+                            <img src="../src/portfolio/techseed.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Techseed S.R.L.</p>
+                                    <p class="sito-date">2020 - <?php echo date("Y"); ?></p>
+                                </div>
+                                <p class="sito-url">www.techseed.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
                             <img src="../src/portfolio/amadeus.png" alt="" class="img-responsive">
                             <div class="sito-description">
                                 <div>
@@ -107,13 +117,35 @@
                             </div>
                         </div>
                         <div class="box-sito">
-                            <img src="../src/portfolio/techseed.png" alt="" class="img-responsive">
+                            <img src="../src/portfolio/riders.png" alt="" class="img-responsive">
                             <div class="sito-description">
                                 <div>
-                                    <p class="sito-titolo">Techseed S.R.L.</p>
-                                    <p class="sito-date">2020 - <?php echo date("Y"); ?></p>
+                                    <p class="sito-titolo">Riders Magazine</p>
+                                    <p class="sito-date">2018 - 2019</p>
                                 </div>
-                                <p class="sito-url">www.techseed.it</p>
+                                <p class="sito-url">www.ridersmagazine.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/torneosportilia.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Torneo Sportilia</p>
+                                    <p class="sito-date">2018</p>
+                                </div>
+                                <p class="sito-url">www.torneosportilia.it</p>
+                                
+                            </div>
+                        </div>
+                        <div class="box-sito">
+                            <img src="../src/portfolio/jetprogram.png" alt="" class="img-responsive">
+                            <div class="sito-description">
+                                <div>
+                                    <p class="sito-titolo">Jet Program</p>
+                                    <p class="sito-date">2016 - 2017</p>
+                                </div>
+                                <p class="sito-url">www.jetprogram.net</p>
                                 
                             </div>
                         </div>
