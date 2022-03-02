@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="box-sito">
-                            <img src="../src/portfolio/jetprogram.png" alt="" class="img-responsive">
+                            <img src="../src/portfolio/jetprogram.jpg" alt="" class="img-responsive">
                             <div class="sito-description">
                                 <div>
                                     <p class="sito-titolo">Jet Program</p>
