@@ -21,6 +21,8 @@
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
+    
+    <?php require_once '../include/analytics.php';?>
 </head>
 
 <body>
