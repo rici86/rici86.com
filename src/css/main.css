@@ -136,6 +136,16 @@ p {
     font-variant: small-caps;
     margin-bottom: 1rem;
 }
+.card-title.with-subtitle {
+    margin-bottom: 0.2rem;
+}
+.card-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
 
 /* code examples  */
 pre code {
@@ -362,6 +372,10 @@ main {
 }
 .header-flex-between .button {
     white-space: nowrap;
+}
+.horizontal-center {
+    display: flex;
+    justify-content: center;
 }
 
 /* cards  */
