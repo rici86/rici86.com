@@ -77,6 +77,17 @@
         </div>
     </div>
     <div class="box-sito">
+        <img src="../src/portfolio/life.png" alt="" class="img-responsive">
+        <div class="sito-description">
+            <div>
+                <p class="sito-titolo">The Lifestyle Journal</p>
+                <p class="sito-date">2018 </p>
+            </div>
+            <p class="sito-url">www.thelifestylejournal.it</p>
+            
+        </div>
+    </div>
+    <div class="box-sito">
         <img src="../src/portfolio/torneosportilia.png" alt="" class="img-responsive">
         <div class="sito-description">
             <div>
@@ -84,6 +95,17 @@
                 <p class="sito-date">2018</p>
             </div>
             <p class="sito-url">www.torneosportilia.it</p>
+            
+        </div>
+    </div>
+    <div class="box-sito">
+        <img src="../src/portfolio/portatosa.png" alt="" class="img-responsive">
+        <div class="sito-description">
+            <div>
+                <p class="sito-titolo">Hosteria Porta Tosa, Milano</p>
+                <p class="sito-date">2017</p>
+            </div>
+            <p class="sito-url">www.portatosa.com</p>
             
         </div>
     </div>
