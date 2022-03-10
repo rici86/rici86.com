@@ -63,13 +63,13 @@
                     </div>
                 </div>
                 <div class="">
-                    <?php require_once '../include/slider-crafts.php';?>                    
+                    <img src="../src/img/foto/2019-crafts.jpg" alt="" class="img-responsive photo">
                 </div>
             </section>
-
+            
             <section class="main-row main-row-invert">
                 <div class="images">
-                    <img src="../src/img/foto/2019-crafts.jpg" alt="" class="img-responsive photo">
+                    <?php require_once '../include/slider-crafts.php';?>                    
                 </div>
                 <div class="card">
                     <h2 class="card-title">#LRCrafts: "Se puoi pensarlo, puoi farlo"</h2>
