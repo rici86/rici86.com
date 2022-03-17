@@ -67,7 +67,7 @@
                 </div>
             </section>
             
-            <section class="main-row main-row-invert">
+            <!-- <section class="main-row main-row-invert">
                 <div class="images">
                     <?php require_once '../include/slider-crafts.php';?>                    
                 </div>
@@ -80,7 +80,7 @@
                     <blockquote>"Se puoi pensarlo, puoi farlo"</blockquote>
                 </div>
 
-            </section>
+            </section> -->
             
             <?php require_once '../include/shape-divider.php';?>
 
