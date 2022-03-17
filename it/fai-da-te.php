@@ -19,8 +19,8 @@
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
     <!-- slick slider  -->
-    <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/> -->
 
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
@@ -33,7 +33,7 @@
     <div id="main-container">
         <?php require_once 'include/nav.php';?>
 
-        <a href="../en/web-development.php" title="English" class="lang-switcher">
+        <a href="../en/crafts.php" title="English" class="lang-switcher">
             <img src="../src/img/eng.png" alt="English" class="lang">
         </a>
 
@@ -91,7 +91,7 @@
     </div>
 
     <!-- slick slider  -->
-    <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
+    <!-- <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
     <script type="text/javascript" src="../src/slick/slick.min.js"></script>
     <script>
         $('.slider-siti').slick({
@@ -107,7 +107,7 @@
             pauseOnHover: true,
             lazyLoad: 'ondemand'
         });
-    </script>
+    </script> -->
 
     <!-- <?php require_once 'include/footer.php';?> -->
 
