@@ -254,6 +254,7 @@ main.with-shape-divider {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    background-color: transparent;
     transform: rotate(180deg);
 }
 .book-shape-divider svg {
@@ -261,6 +262,7 @@ main.with-shape-divider {
     display: block;
     width: calc(100% + 1.3px);
     height: 81px;
+    background-color: transparent;
 }
 .book-shape-divider .shape-fill {
     fill: var(--primary);
