@@ -62,7 +62,7 @@
             <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
                 <figure class="">
                     <img src="../src/img/foto/2013-gttriora.jpg" alt="" class="img-responsive photo">
-                    <figcaption>Foto by Alessandro Scibilia</figcaption>
+                    <figcaption>Foto di Alessandro Scibilia</figcaption>
                 </figure>
                 <div class="card">
                     <h2 class="card-title" id="section-title-2">I Ghost Tour di Autunnonero</h2>
@@ -80,9 +80,45 @@
                     </p>
                     <p>
                         Non solo recitazione, ho anche contribuito alla promozione e all'organizzazione di diverse edizioni. 
-                    </p>                    
+                    </p> 
+                    <blockquote>
+                        Alcune delle cose che vi racconteremo sono fatti storici,
+                        <br>altre sono leggende o storie del folklore popolare,
+                        <br>ma nulla di quello che sentirete
+                        <br>è frutto della nostra fantasia o invenzione.
+                        <br>Perciò seguite sempre la nostra lanterna
+                        <br>e state lontano dai luoghi bui..." 
+                    </blockquote>                   
                 </div>
             </section>
+
+            <section class="main-row" aria-labelledby="#secton-title-3">
+                <div class="card">
+                    <h2 class="card-title" id="secton-title-3">"I Misteri del Castello"</h2>
+                    <p>
+                        Grazie all'esperienza con Autunnonero, nell'ottobre 2013 ho ideato "I Misteri del Castello", uno speciale spettacolo itinerante al Castello di Zavattarello (Pv) per scoprire i luoghi protagonisti della sua leggenda e dei misteriosi avvenimenti ad essa collegati.
+                    </p>
+                    <p>
+                        Non si tratta di una visita guidata del tipo consueto, per raccontare vicende storiche e ammirare l'architettura della rocca millenaria, ma di un vero e proprio viaggio per conoscerne il lato più oscuro. 
+                        <br>Il percorso notturno guida all'interno di ogni sala del castello in un vero e proprio spettacolo: a poco a poco, la vicenda storica di Pietro dal Verme lascia il posto al mistero, fino a raggiungere il cuore della storia, completamente immersi nelle tenebre.
+                    </p>
+                    <blockquote>
+                        Una fredda notte di ottobre di tanti secoli fa.
+                        <br>Un avvelenamento che è rimasto nella storia,
+                        <br>ma che è entrato anche nella leggenda.
+                        <br>Una serie di eventi inspiegabili.
+                        <br>Un viaggio per scoprirli..."
+                    </blockquote>
+                    <div class="horizontal-center">
+                        <a href="https://www.youtube.com/watch?v=KgMdM7nA7ZM&t=2s" target="_blank" class="button button-main">Guarda il trailer video</a>
+                    </div>
+                </div>
+                <figure class="">
+                    <img src="../src/img/foto/2019-misteri.jpg" alt="" class="img-responsive photo">
+                </figure>
+            </section>
+
+            
                         
             <?php require_once '../include/shape-divider.php';?>
 
