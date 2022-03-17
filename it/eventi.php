@@ -34,9 +34,9 @@
         </a>
 
         <main class="with-shape-divider">
-            <section class="main-row">
+            <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
-                    <h1 class="card-title">Come ho iniziato a organizzare eventi: le rievocazioni</h1>
+                    <h1 class="card-title" id="secton-title-1">Come ho iniziato a organizzare eventi: le rievocazioni</h1>
                     <p>
                         Ho iniziato a organizzare eventi quasi per caso. 
                         <br>I primi sono stati nel 2009, il primo concerto solista di mia madre e una mostra al Museo di cui ero diventata direttore da pochi mesi. 
@@ -59,12 +59,13 @@
                 </figure>
             </section>
 
-            <section class="main-row main-row-invert">
-                <div class="">
+            <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
+                <figure class="">
                     <img src="../src/img/foto/2013-gttriora.jpg" alt="" class="img-responsive photo">
-                </div>
+                    <figcaption>Foto by Alessandro Scibilia</figcaption>
+                </figure>
                 <div class="card">
-                    <h1 class="card-title">I Ghost Tour di Autunnonero</h1>
+                    <h2 class="card-title" id="section-title-2">I Ghost Tour di Autunnonero</h2>
                     <p>
                         Dalla prima rievocazione è stato un attimo. 
                         <br>L'anno dopo sono stata coinvolta in un progetto che ho adorato: i Ghost Tour di Autunnonero in Liguria. Prima a Trioria, il borgo delle streghe, e poi a Dolceacqua. 
