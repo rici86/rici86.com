@@ -80,6 +80,46 @@ figcaption {
     font-size: 0.75rem;
 }
 
+/* Blockquote  */
+blockquote {
+    position: relative;
+    font-style: italic;
+    text-align: right;
+    font-size: 95%;
+    padding: 0.5rem;
+    width: max-content;
+    margin-left: auto;
+    color: var(--dark);
+}
+blockquote::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    border-radius: var(--main-border-radius);
+    box-shadow: -2px -2px 1px hsl(0 0% 100%), 2px 2px 4px hsl(0 0% 0% / 20%);
+}
+blockquote::after {
+    content: "❝";
+    position: absolute;
+    z-index: 1;
+    left: -1rem;
+    top: 0;
+    width: 1.5rem;
+    height: 1rem;
+    background: white;
+    box-shadow: 0 4px 5px -1px hsla(0 0% 0% / 20%);
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    /* padding-top: .5em; */
+    color: var(--accent);
+    font-size: 36px;
+    font-style: normal;
+    text-indent: 0;
+}
+
 /* Buttons  */
 .button {
     /* padding: 1rem 1.5rem; */
