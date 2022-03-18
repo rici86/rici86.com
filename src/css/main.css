@@ -142,7 +142,7 @@ blockquote::after {
 a.button-main:hover {
     background-color: var(--medium);
     color: var(--light);
-    border: solid var(--light);
+    /* border: solid var(--light); */
     border-width: 1px 3px 1px 3px;
 }
 .button-small {
