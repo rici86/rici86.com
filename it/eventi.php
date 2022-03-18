@@ -118,6 +118,60 @@
                 </figure>
             </section>
 
+            <section class="main-row main-row-invert" aria-labelledby="#secton-title-4">
+                <figure class="">
+                    <img src="../src/img/foto/2018-proiezione.jpg" alt="" class="img-responsive photo">
+                    <figcaption>La proiezione del film "La bambina guerriero" in una delle location</figcaption>
+                </figure>
+                <div class="card">
+                    <h2 class="card-title" id="section-title-4">Eventi per tutti i gusti</h2>
+                    <p>
+                        Concerti, mostre, serate danzanti, visite tematiche, rassegne artistiche, conferenze, proiezioni cinematografiche, presentazioni di libri... 
+                        <br>Farei persino fatica a stilare un elenco completo. 
+                    </p>
+                    <p>
+                        Come direttore del museo d'arte contemporanea di Zavattarello, le mostre sono state diverse. 
+                        <br>Ognuna ha avuto come filo conduttore il rapporto tra l'antico maniero che ne è stato il contenitore e le opere eterogenee che di volta in volta ne sono state il contenuto. 
+                        <br>Ne è nato ogni volta un dialogo intenso, che ha valorizzato sia il castello sia le creazioni degli artisti. 
+                        <br>Esporre in una sala bianca vuota è più facile, misurarsi invece con mille anni di storia e una presenza architettonica imponente è una sfida che, quando è di successo, arricchisce chiunque ne sia protagonista, come artista o come spettatore.
+                    </p>    
+                    <p>
+                        Anche eventi che possono sembrare semplici, quasi noiosi, come le presentazioni di libri o le proiezioni di film, mi hanno sempre stimolata. 
+                        <br>La sfida in questo caso è realizzare un evento piacevole che permetta ai partecipanti di portare a casa qualcosa. 
+                        <br>Tra i libri di cui ho organizzato presentazioni, ce ne sono stati alcuni contenenti <a href="scrittura.php">racconti scritti da me</a>. Un doppio stimolo per la buona riuscita della presentazione!
+                    </p>             
+                    <p>
+                        Lo stesso vale per le proiezioni cinematografiche: quanti possono dire di aver organizzato la prima di un film in cui hanno preso parte attivamente come attori?
+                    </p>
+                </div>
+            </section>
+
+            <section class="main-row" aria-labelledby="#secton-title-5">
+                <div class="card">
+                    <h2 class="card-title" id="secton-title-5">Un'esperienza come attrice: "La Bambina Guerriero e il regno di Oltre i Sogni"</h2>
+                    <p>
+                        Trovarmi su un vero set cinematografico per recitare nel ruolo dell'arciere a custodia del Regno di Oltre i Sogni è stata un'esperienza unica.
+                    </p>
+                    <p>
+                        Il cast era davvero ricchissimo, con oltre 50 comparse. Quasi un anno di riprese in diverse location sparse in due regioni del Nord Italia. 
+                        <br>Per non parlare della nutrita squadra dietro le quinte: cameramen, segretarie di regia, tecnici audio, montatori, esperti di effetti speciali... 
+                    </p>
+                    <p>
+                        Protagonista è la giovane Lisa Attardi, affiancata da Chiara Serangeli e Sefora Castro, attrici professioniste in ambito cinematografico e teatrale.
+                    </p>
+                    <p>
+                        Il film racconta la storia di Lisa e del suo viaggio fantastico per sconfiggere la strega Makira, che incarna la grave malattia che affligge la bambina nella vita reale.
+                        <br>la battaglia di Lisa la conduce nel magico Regno di Oltre i Sogni, dove incontrerà diversi personaggi fantastici. Un racconto fantasy pensato per portare a bambini e ragazzi una tematica importante.
+                    </p>
+                    <div class="horizontal-center">
+                        <a href="https://vimeo.com/237466160" target="_blank" class="button button-main">Guarda il trailer</a>
+                    </div>
+                </div>
+                <figure class="">
+                    <img src="../src/img/foto/2017-bambinaguerriero3.jpg" alt="" class="img-responsive photo">
+                    <figcaption>Sul set del film "La bambina guerriero"</figcaption>
+                </figure>
+            </section>
             
                         
             <?php require_once '../include/shape-divider.php';?>
