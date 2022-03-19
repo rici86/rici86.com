@@ -96,6 +96,12 @@
                         <br>Le suggestive atmosfere delle antiche sale stuzzicano la sua fantasia e la portano a sognare spesso ad occhi aperti, fantasticando delle vicende e dei personaggi che sono passati nei secoli per le stanze e i corridoi della rocca. Ma una storia più di altre attira la sua curiosità: la leggenda del fantasma di Pietro dal Verme, morto avvelenato per mano della seconda moglie Chiara Sforza.
                         <br>Tra leggenda e indagini dei ricercatori del paranormale, le fantasie di Lia si intensificano. Ma il confine tra suggestione e realtà è molto labile, specialmente immersi nei mille anni di storia di una fortezza medievale...
                     </p>
+                    <blockquote>
+                        "Si guardò ancora una volta intorno per accertarsi di essere sola. 
+                        <br>Sì, tutti dormivano. 
+                        <br>In quella fredda sera di ottobre, era l'unica presenza a vagare per l'edificio."
+                        <br>(da "Lia")
+                    </blockquote>
                 </div>
             </section>
             
