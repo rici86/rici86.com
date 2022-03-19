@@ -38,9 +38,9 @@
         </a>
 
         <main class="with-shape-divider">
-            <section class="main-row">
+            <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
-                    <h1 class="card-title">Siti web</h1>
+                    <h1 class="card-title" id="section-title-1">Siti web</h1>
                     <p>
                         Ho iniziato con un piccolo sito dedicato a una delle mie passioni ai tempi del liceo, poi ho cominciato a realizzare siti web per conoscenti e amici. Dopo un paio d'anni, sono venuti a chiedermi collaborazioni più o meno durature anche aziende e altre realtà.
                     </p>
@@ -62,6 +62,84 @@
                 </div>
                 <div class="">
                     <?php require_once '../include/slider-siti.php';?>   
+                </div>
+            </section>
+
+            <section class="main-row main-row-invert">
+                <figure class="">
+                    <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
+                </figure>
+                <div class="card">
+                    <h2 class="card-title" id="section-title-2">CSS, la mia prima passione</h2>
+                    <p>
+                        Quando ho iniziato ad appassionarmi allo sviluppo web, aprendo il codice sorgente dei siti di altri per vedere com'erano fatti, mi sono subito innamorata del CSS.                         
+                        <br>Con il CSS (e tutti i suoi contorni, ad esempio Sass), posso controllare l'aspetto di una pagina web al pixel. 
+                        <br>Ho subito adorato, ad esempio, il potermi cimentare con la riproduzione <i>pixel perfect</i> di mockup grafici. 
+                    </p>
+                    <p>
+                        I miei primi siti non erano responsive, non esistevano le media queries e i cellulari non navigavano in internet. 
+                        <br>Se mi guardo indietro e confronto quei progetti con quelli che realizzo oggi, mi sembra quasi di essere in un altro mondo. 
+                    </p>
+                    <p>
+                        Il CSS si sta arricchendo di <i>feature</i> straordinarie, che permettono di controllare ambiti che non ci si aspetta da un linguaggio usato solitamente per "stilizzare" le pagine: variabili, pseudo-elementi, funzioni... 
+                        <br>E molto ci aspetta nel prossimo futuro. 
+                    </p>
+                </div>
+            </section>
+            
+
+            <section class="main-row" aria-labelledby="#section-title-2">
+                <div class="card">
+                    <h2 class="card-title" id="section-title-2">Non solo codice: SEO, social media e contenuti</h2>
+                    <p>
+                        Non mi piace limitarmi al codice. Il web è tanto altro. 
+                    </p>
+                    <p>
+                        Ho lavorato anche nella comunicazione digitale, occupandomi di social media, email marketing e community management. 
+                        <br>Mi è sempre piaciuto il contatto con le persone, anche digitale. 
+                        <br>Credo che in questo ambito la mia formazione umanistica sia stata parecchio utile. 
+                        <br>Un progetto ben riuscito? La promozione dell'<a href="misteri-del-castello.php">evento "I Misteri del Castello"</a>, che ha visto dodici edizioni in sei anni, tutte <i>sold-out</i>. 
+                    </p>
+                    <p>
+                        La SEO è un settore che mi ha sempre affascinato. 
+                        <br>Mi è capitato di lavorare a progetti di local SEO che hanno portato ottimi risultati, soprattutto nel settore turistico e degli <a href="eventi.php">eventi</a>.                         
+                    </p>
+                    <p>
+                        Non mi ritengo un grafico in senso stretto, ma mi è piaciuto realizzare grafiche quando ne ho avuto l'occasione: manifesti, brochure, locandine, depliant, grafiche per social media o pagine web.
+                    </p>
+                    <p>
+                        Per diversi siti web che ho realizzato, poi, ho creato non solo codice e grafica, ma anche i contenuti. 
+                        <br>Il più grande progetto a cui ho lavorato è stato il sito, istituzionale e turistico insieme, del Comune di Zavattarello. Me ne sono occupata per dodici anni, realizzandone due restyling completi. 
+                        <br>Alla fine era arrivato ad avere oltre 200 pagine in due lingue, più una piccola sezione in otto lingue. Ogni testo, ogni foto, ogni grafica realizzata da me.
+                        <br>L'aggiornamento era quasi giornaliero, con una cura sartoriale. 
+                    </p>
+                </div>
+                <figure class="">
+                    <img src="../src/img/zavattarello-castello.jpg" alt="" class="img-responsive photo">
+                </figure>
+            </section>
+
+            <section class="main-row main-row-invert" aria-labelledby="#section-title-3">
+                <figure class="">
+                    <img src="../src/img/foto/2015-quarona.jpg" alt="" class="img-responsive photo">
+                    <figcaption>Riprese video con Angelo Cannella Production</figcaption>
+                </figure>
+                <div class="card">
+                    <h2 class="card-title" id="section-title-3">La mia esperienza con il video</h2>
+                    <p>
+                        Mi sono cimentata anche nella realizzazione di servizi fotografici per siti web o quotidiani, riprese video e montaggi.
+                        <br><a href="https://vimeo.com/rici86">Piccoli progetti</a>, come il montaggio di trailer di spettacoli o riprese video a spettacoli teatrali.                          
+                    </p>
+                    <p>
+                        Un progetto che mi è rimasto nel cuore è <a href="https://vimeo.com/showcase/3939809">la collaborazione con Angelo Cannella</a>, videomaker, regista e documentarista.
+                    </p>
+                    <p>
+                        Insieme abbiamo realizzato video promozionali e documentari, ai quali ho collaborato in qualità di conduttrice, voce narrante e autrice di copioni, in italiano e in inglese. 
+                        <br>Abbiamo girato molto insieme, spesso in borghi medievali e luoghi ricchi di storia, dove anche la mia formazione in archeologia ha trovato terreno fertile.  
+                    </p>
+                    <p>
+                        Dopo un anno di collaborazione, abbiamo deciso di prendere strade diverse. <a href="http://www.angelocannellaproduction.com/" target="_blank">Angelo Cannella</a> lavora ancora nel campo video: ha fatto molta strada, girando anche cortometraggi e film, specializzandosi in effetti speciali e realizzato prodotti di ogni genere. 
+                    </p>
                 </div>
             </section>
             
