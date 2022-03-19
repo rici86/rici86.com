@@ -49,6 +49,7 @@
                     </p>                    
                     <p>
                         La mia passione per la scrittura trova ora sfogo anche sul web, in particolare all'interno del <a href="https://www.lrcrafts.it">blog #LRCrafts</a>, dedicato alla passione di famiglia per il fai-da-te. 
+                        <br>E c'è sempre <a href="https://rici86.blogspot.com">il mio blog personale</a>, depositario da oltre dieci anni di pensieri sparsi.
                     </p>
                     <p>
                         Scrivere è una passione che richiede tempo, tranquillità e il giusto stato d'animo. Non sempre si concilia con lo stile di vita dinamico e ricco di interessi che ho scelto. 
