@@ -64,13 +64,13 @@
                     </p>
                 </div>
                 <figure class="">
-                    <img src="../src/img/foto/2019-rici.jpg" alt="" class="img-responsive photo" style="filter: saturate(1.2);">
+                    <img src="../src/img/foto/2019-rici.jpg" alt="Sara Rossi, alias Rici86" class="img-responsive photo" style="filter: saturate(1.2);">
                 </figure>
             </section>
 
             <section class="main-row main-row-invert" id="percorso" aria-labelledby="#section-title-2">                
                 <figure class="">
-                    <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2018-corso.jpg" alt="Corso di SEO" class="img-responsive photo">
                 </figure>
                 <div class="card">
                     <div class="header-flex-between">
@@ -121,13 +121,13 @@
                     <?php require_once '../include/code-icons.php';?>
                 </div>
                 <figure>
-                    <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2020-office.jpg" alt="Al lavoro: la realizzazione di una demo interattiva" class="img-responsive photo">
                 </figure>
             </section>
             
             <section class="main-row main-row-invert" id="archeo" aria-labelledby="#section-title-4">
                 <figure class="">
-                    <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2009-scavo.jpg" alt="Scavo archeologico alla Piana di San Martino, Pianello Val Tidone (Pc)" class="img-responsive photo">
                 </figure>
                 <div class="card">
                     <h2 class="card-title" id="section-title-4">E il mio passato "archeologico"?</h2>
@@ -167,13 +167,13 @@
                     </p>
                 </div>
                 <figure class="">
-                    <img src="../src/img/foto/2011-visitamuseale.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2011-visitamuseale.jpg" alt="Una visita al Museo d'arte contemporanea del Castello di Zavattarello" class="img-responsive photo">
                 </figure>
             </section>
 
             <section class="main-row main-row-invert" id="turismo"  aria-labelledby="#section-title-6">
                 <figure class="">
-                    <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2016-storyteller.jpg" alt="Nei panni di storyteller al Ghost Tour Triora con Autunnonero" class="img-responsive photo">
                 </figure>
                 <div class="card">
                     <div class="header-flex-between">
