@@ -38,9 +38,9 @@
         </a>
 
         <main class="with-shape-divider">
-            <section class="main-row" aria-labelledby="#secton-title-1">
+            <section class="main-row" aria-labelledby="#secton-title">
                 <div class="card">
-                    <h1 class="card-title" id="section-title-1">Siti web</h1>
+                    <h1 class="card-title" id="section-title">Siti web</h1>
                     <p>
                         Ho iniziato con un piccolo sito dedicato a una delle mie passioni ai tempi del liceo, poi ho cominciato a realizzare siti web per conoscenti e amici. Dopo un paio d'anni, sono venuti a chiedermi collaborazioni più o meno durature anche aziende e altre realtà.
                     </p>
@@ -65,12 +65,12 @@
                 </div>
             </section>
 
-            <section class="main-row main-row-invert">
+            <section class="main-row main-row-invert" aria-labelledby="#section-title-1">
                 <figure class="">
                     <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
                 </figure>
                 <div class="card">
-                    <h2 class="card-title" id="section-title-2">CSS, la mia prima passione</h2>
+                    <h2 class="card-title" id="section-title-1">CSS, la mia prima passione</h2>
                     <p>
                         Quando ho iniziato ad appassionarmi allo sviluppo web, aprendo il codice sorgente dei siti di altri per vedere com'erano fatti, mi sono subito innamorata del CSS.                         
                         <br>Con il CSS (e tutti i suoi contorni, ad esempio Sass), posso controllare l'aspetto di una pagina web al pixel. 
