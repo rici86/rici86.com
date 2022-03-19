@@ -34,8 +34,8 @@
         </a>
 
         <main class="with-shape-divider">
-            <section class="main-row">
-                <div class="card">
+            <section class="main-row" aria-labelledby="#section-title-1">
+                <div class="card" id="section-title-1">
                     <h1 class="card-title">Qualcosa su di me</h1>
                     <p>
                         Benvenuto, navigante, nel mio piccolo porto del web. 
@@ -63,18 +63,18 @@
                         <i>Ma allora come sei finita a sviluppare in una software agency</i>, ti starai chiedendo.
                     </p>
                 </div>
-                <div class="images">
+                <figure class="">
                     <img src="../src/img/foto/2019-rici.jpg" alt="" class="img-responsive photo" style="filter: saturate(1.2);">
-                </div>
+                </figure>
             </section>
 
-            <section class="main-row main-row-invert" id="percorso">                
-                <div class="images">
+            <section class="main-row main-row-invert" id="percorso" aria-labelledby="#section-title-2">                
+                <figure class="">
                     <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
-                </div>
+                </figure>
                 <div class="card">
                     <div class="header-flex-between">
-                        <h2 class="card-title">Il mio percorso verso lo sviluppo </h2>
+                        <h2 class="card-title" id="section-title-2">Il mio percorso verso lo sviluppo </h2>
                         <a href="sviluppo-web.php" class="button button-main button-small">Scopri di più</a>
                     </div>
                     <p>
@@ -99,9 +99,9 @@
                 </div>
             </section>
 
-            <section class="main-row" id="oggi">
+            <section class="main-row" id="oggi" aria-labelledby="#section-title-3">
                 <div class="card">
-                    <h2 class="card-title">Il mio lavoro oggi</h2>
+                    <h2 class="card-title" id="section-title-3">Il mio lavoro oggi</h2>
                     <p>
                         Ed eccomi qui, a sporcarmi le mani con CSS (il mio primo amore), HTML, SASS, Php, Javascript e cugini, Laravel e non solo. 
                     </p>
@@ -120,17 +120,17 @@
                     
                     <?php require_once '../include/code-icons.php';?>
                 </div>
-                <div class="images">
+                <figure>
                     <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
-                </div>
+                </figure>
             </section>
             
-            <section class="main-row main-row-invert" id="archeo">
-                <div class="images">
+            <section class="main-row main-row-invert" id="archeo" aria-labelledby="#section-title-4">
+                <figure class="">
                     <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
-                </div>
+                </figure>
                 <div class="card">
-                    <h2 class="card-title">E il mio passato "archeologico"?</h2>
+                    <h2 class="card-title" id="section-title-4">E il mio passato "archeologico"?</h2>
                     <p>
                         Ho frequentato l'università a Pavia, dove mi sono laureata in Archeologia Classica e Scienze dei Beni Culturali. 
                     </p>
@@ -147,9 +147,9 @@
                 </div>
             </section>
 
-            <section class="main-row" id="irlanda">
+            <section class="main-row" id="irlanda" aria-labelledby="#section-title-5">
                 <div class="card">
-                    <h2 class="card-title">Operatore museale in Italia e in Irlanda</h2>
+                    <h2 class="card-title" id="section-title-5">Operatore museale in Italia e in Irlanda</h2>
                     <p>
                         Ho lavorato per musei e luoghi della cultura per anni, in un museo in particolare per 16 anni. Molti ancora oggi mi conoscono come "la castellana" a causa di quella esperienza al Castello di Zavattarello. Di quel museo sono stata anche direttore, ho ideato e organizzato molti eventi, quindi è normale che questa etichetta mi rimanga stampata addosso indelebile. 
                     </p>
@@ -166,18 +166,18 @@
                         Meritano una menzione a parte gli eventi che ho organizzato.
                     </p>
                 </div>
-                <div class="images">
+                <figure class="">
                     <img src="../src/img/foto/2011-visitamuseale.jpg" alt="" class="img-responsive photo">
-                </div>
+                </figure>
             </section>
 
-            <section class="main-row main-row-invert" id="turismo">
-                <div class="images">
+            <section class="main-row main-row-invert" id="turismo"  aria-labelledby="#section-title-6">
+                <figure class="">
                     <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
-                </div>
+                </figure>
                 <div class="card">
                     <div class="header-flex-between">
-                        <h2 class="card-title">Organizzazione di eventi</h2>
+                        <h2 class="card-title" id="section-title-6">Organizzazione di eventi</h2>
                         <a href="eventi.php" class="button button-main button-small">Scopri di più</a>
                     </div>
                     <p>

@@ -38,9 +38,9 @@
         </a>
 
         <main class="with-shape-divider">
-            <section class="main-row">
+            <section class="main-row" aria-labelledby="#section-title-1">
                 <div class="card">
-                    <h1 class="card-title">Passione fai-da-te</h1>
+                    <h1 class="card-title" id="section-title-1">Passione fai-da-te</h1>
                     <p>
                         Condivido da sempre la passione per il fai-da-te con la mia famiglia, mio marito in particolare. É capitato spesso di trovarci a parlare con gli amici o i colleghi di questo o quel progetto che abbiamo realizzato, e di non avere mai a disposizione una foto da mostrare. Molto è condiviso sul mio profilo Instagram, ma non è certo esaustivo. 
                     </p>
@@ -62,9 +62,9 @@
                         <a href="https://www.lrcrafts.it" class="button button-main">#LRCrafts.it</a>
                     </div>
                 </div>
-                <div class="">
+                <figure class="">
                     <img src="../src/img/foto/2019-crafts.jpg" alt="" class="img-responsive photo">
-                </div>
+                </figure>
             </section>
             
             <!-- <section class="main-row main-row-invert">
