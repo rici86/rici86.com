@@ -80,7 +80,7 @@
                         <div class="book">
                             <img
                             alt="Misteri e Manieri d'Oltrepò"
-                            src="../src/img/misteri-manieri-cover.webp"
+                            src="../src/img/misteri-manieri-cover.jpg"
                             />
                         </div>
                     </div>
