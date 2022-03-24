@@ -67,8 +67,8 @@
 
             <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
                 <figure class="">
-                    <img src="../src/img/misteri/misteri11.jpg" alt="" class="img-responsive photo">
-                    <figcaption></figcaption>
+                    <img src="../src/img/misteri/misteri11.jpg" alt="L'eretica prigioniera nella cella medievale - Foto di Angelo Cannella" class="img-responsive photo">
+                    <figcaption>L'eretica prigioniera nella cella medievale - Foto di Angelo Cannella</figcaption>
                 </figure>
                 <div class="card">
                     <h2 class="card-title" id="section-title-2">Un viaggio nel mistero</h2>
@@ -97,14 +97,25 @@
 
             <section class="main-row" aria-labelledby="#secton-title-3">
                 <div class="card">
-                    <h2 class="card-title" id="secton-title-3">"I Misteri del Castello"</h2>
+                    <h2 class="card-title" id="secton-title-3">L'idea, il cast, lo spettacolo</h2>
                     <p>
-                    </p>
-                    
+                    </p>                    
                 </div>
                 <figure class="">
-                    <img src="../src/img/foto/2019-misteri.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/misteri/misterigruppo2017aprile.jpg" alt="Il cast dei Misteri del Castello dell'edizione dell'aprile 2017 - Foto di Angelo Cannella" class="img-responsive photo">
+                    <figcaption>Il cast dell'edizione dell'aprile 2017 - Foto di Angelo Cannella</figcaption>
                 </figure>
+            </section>
+
+            <section class="main-row main-row-invert" aria-labelledby="#secton-title-4">
+                <div class="card">
+                    <h2 class="card-title" id="secton-title-4">La ricezione del pubblico: tutto sold-out</h2>
+                    <p>
+                    </p>                    
+                </div>
+                <div class="images">
+                    <?php require_once '../include/slider-misteri-stampa.php';?>   
+                </div>
             </section>
 
                         
