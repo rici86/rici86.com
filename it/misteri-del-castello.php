@@ -18,6 +18,10 @@
 	
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
+
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
@@ -63,7 +67,7 @@
 
             <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
                 <figure class="">
-                    <img src="../src/img/foto/2019-misteri.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/misteri/misteri11.jpg" alt="" class="img-responsive photo">
                     <figcaption></figcaption>
                 </figure>
                 <div class="card">
