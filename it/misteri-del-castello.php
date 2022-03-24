@@ -99,7 +99,11 @@
                 <div class="card">
                     <h2 class="card-title" id="secton-title-3">L'idea, il cast, lo spettacolo</h2>
                     <p>
-                    </p>                    
+                        Conosco bene il Castello di Zavattarello e le sue vicende storiche o inspiegabili. 
+                        <br>Pietro Dal Verme è un personaggio storico realmente vissuto, sul quale ho effettuato ricerche storiche e su cui c'è molto da raccontare. 
+                        <br>Si dice anche che possa essere il fantasma a cui molti attribuiscono una lunga serie di fatti insoliti avvenuti nelle sale del castello. 
+                        <br>É una storia affascinante, che si svolge in un luogo che sarebbe emozionante anche senza conoscere questa leggenda. 
+                    </p>   
                 </div>
                 <figure class="">
                     <img src="../src/img/misteri/misterigruppo2017aprile.jpg" alt="Il cast dei Misteri del Castello dell'edizione dell'aprile 2017 - Foto di Angelo Cannella" class="img-responsive photo">
