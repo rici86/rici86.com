@@ -1,8 +1,4 @@
 
-<!-- slick slider  -->
-<link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
-
 <div class="slider-siti">
     <div class="box-sito">
         <img src="../src/portfolio/bottondoro.png" alt="" class="img-responsive">

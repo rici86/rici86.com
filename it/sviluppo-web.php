@@ -18,6 +18,10 @@
 	
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
+
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
