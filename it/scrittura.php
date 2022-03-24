@@ -69,17 +69,17 @@
             <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
                 <div class="images books">
                     <div class="book-container">
-                        <div class="book">
+                        <a href="http://www.historicaedizioni.com/libri/racconti-segreti-della-lombardia/" target="_blank" title="Acquista il libro" class="book">
                             <img
-                            alt="I racconti segreti della Lombardia"
+                            alt="I racconti segreti della lombardia, Historica edizioni, 2017"
                             src="../src/img/lombardia-segreta-cover.jpg"
                             />
-                        </div>
+                        </a>
                     </div>
                     <div class="book-container">
                         <div class="book">
                             <img
-                            alt="Misteri e Manieri d'Oltrepò"
+                            alt="Misteri e Manieri d'Oltrepò, edizioni Iperpress, 2014"
                             src="../src/img/misteri-manieri-cover.jpg"
                             />
                         </div>
