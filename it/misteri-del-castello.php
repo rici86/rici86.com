@@ -113,7 +113,7 @@
                     <p>
                     </p>                    
                 </div>
-                <div class="images">
+                <div class="">
                     <?php require_once '../include/slider-misteri-stampa.php';?>   
                 </div>
             </section>
