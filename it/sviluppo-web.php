@@ -73,7 +73,7 @@
                     <h2 class="card-title" id="section-title-1">CSS, la mia prima passione</h2>
                     <p>
                         Quando ho iniziato ad appassionarmi allo sviluppo web, aprendo il codice sorgente dei siti di altri per vedere com'erano fatti, mi sono subito innamorata del CSS.                         
-                        <br>Con il CSS (e tutti i suoi contorni, ad esempio Sass), posso controllare l'aspetto di una pagina web al pixel. 
+                        <br>Adoravo giocare con l'inspector e vedere l'aspetto della pagina cambiare sotto i miei occhi come volevo io.
                         <br>Ho subito adorato, ad esempio, il potermi cimentare con la riproduzione <i>pixel perfect</i> di mockup grafici. 
                     </p>
                     <p>
@@ -83,6 +83,12 @@
                     <p>
                         Il CSS si sta arricchendo di <i>feature</i> straordinarie, che permettono di controllare ambiti che non ci si aspetta da un linguaggio usato solitamente per "stilizzare" le pagine: variabili, pseudo-elementi, funzioni... 
                         <br>E molto ci aspetta nel prossimo futuro. 
+                        <br>Questo è un aspetto che adoro nel CSS: è in continuo mutamento.
+                    </p>
+                    <p>
+                        Novità come l'introduzione delle Media Queries o l'arrivo di Flexbox e Grid hanno cambiato le carte in tavola in maniera dirompente. 
+                        <br>Immaginarsi com'era lo sviluppo front-end prima è quasi impossibile. Eppure sono contenta di averlo provato, di poter riconoscere la differenza.
+                        <br>E sono contenta di sviluppare in CSS in un momento così stimolante.
                     </p>
                 </div>
             </section>
@@ -115,7 +121,8 @@
                     </p>
                 </div>
                 <figure class="">
-                    <img src="../src/img/zavattarello-castello.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/zavattarello-castello.jpg" alt="Una pagina del sito www.zavattarello.org nel restyling del 2016" class="img-responsive photo">
+                    <figcaption>Una pagina del sito www.zavattarello.org nel restyling del 2016</figcaption>
                 </figure>
             </section>
 
