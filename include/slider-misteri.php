@@ -1,4 +1,4 @@
-<div class="slider-siti">
+<div class="slider-misteri">
     <div class="box-sito">
         <img src="../src/img/misteri/misteri01.jpg" alt="" class="img-responsive">      
         <div class="sito-description no-flex">            
@@ -103,7 +103,7 @@
 <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
 <script type="text/javascript" src="../src/slick/slick.min.js"></script>
 <script>
-    $('.slider-siti').slick({
+    $('.slider-misteri').slick({
         rows: 1,
         infinite: true,
         autoplay: false,

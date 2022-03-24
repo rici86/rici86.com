@@ -6,6 +6,27 @@
             <p class="sito-date">Novembre 2016</p>            
         </div>  
     </div>
+    <div class="box-sito">
+        <img src="../src/press/pvmagazine10-nov2016-83.png" alt="" class="img-responsive">      
+        <div class="sito-description no-flex">            
+            <p class="sito-url">PvMagazine</p>
+            <p class="sito-date">Novembre 2016</p>            
+        </div>  
+    </div>
+    <div class="box-sito">
+        <img src="../src/press/pvmagazine10-nov2016-85.png" alt="" class="img-responsive">      
+        <div class="sito-description no-flex">            
+            <p class="sito-url">PvMagazine</p>
+            <p class="sito-date">Novembre 2016</p>            
+        </div>  
+    </div>
+    <div class="box-sito">
+        <img src="../src/press/pvmagazine10-nov2016-87.png" alt="" class="img-responsive">      
+        <div class="sito-description no-flex">            
+            <p class="sito-url">PvMagazine</p>
+            <p class="sito-date">Novembre 2016</p>            
+        </div>  
+    </div>
 </div>
 
 <!-- slick slider  -->
