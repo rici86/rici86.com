@@ -127,7 +127,24 @@
 
     </div>
 
-    <!-- <?php require_once 'include/footer.php';?> -->
+    <!-- Schema.org  -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "I Misteri del Castello",
+        "description" : "Avrai il coraggio di varcare quel portone, pur sapendo che si richiuderà dietro di te? Oserai avventurarti in un viaggio lungo 500 anni? Se sì, I Misteri del Castello è l'evento che fa per te.",
+        "startDate" : "2019-10-12T19:20",
+        "endDate" : "2019-10-12T23:59",
+        "image" : "http://www.rici86.com/src/img/misteri/misteri01.jpg",
+        "url" : "http://www.rici86.com/misteri-del-castello.php",
+        "location" : {
+            "@type" : "Place",
+            "name" : "Castello Dal Verme di Zavattarello",
+            "address" : "Via Carlo Dal Verme 4, 27059 Zavattarello (Pv)"
+        }
+    }
+    </script>
 
 </body>
 </html>
