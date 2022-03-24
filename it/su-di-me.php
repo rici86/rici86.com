@@ -128,6 +128,7 @@
             <section class="main-row main-row-invert" id="archeo" aria-labelledby="#section-title-4">
                 <figure class="">
                     <img src="../src/img/foto/2009-scavo.jpg" alt="Scavo archeologico alla Piana di San Martino, Pianello Val Tidone (Pc)" class="img-responsive photo">
+                    <figcaption>Scavo archeologico alla Piana di San Martino, Pianello Val Tidone (Pc)</figcaption>
                 </figure>
                 <div class="card">
                     <h2 class="card-title" id="section-title-4">E il mio passato "archeologico"?</h2>
@@ -168,12 +169,14 @@
                 </div>
                 <figure class="">
                     <img src="../src/img/foto/2011-visitamuseale.jpg" alt="Una visita al Museo d'arte contemporanea del Castello di Zavattarello" class="img-responsive photo">
+                    <figcaption>Durante una visita al Museo d'arte contemporanea del Castello di Zavattarello</figcaption>
                 </figure>
             </section>
 
             <section class="main-row main-row-invert" id="turismo"  aria-labelledby="#section-title-6">
                 <figure class="">
-                    <img src="../src/img/foto/2016-storyteller.jpg" alt="Nei panni di storyteller al Ghost Tour Triora con Autunnonero" class="img-responsive photo">
+                    <img src="../src/img/foto/2016-storyteller.jpg" alt="Nei panni di storyteller durante un Capodanno Celtico a Busto Arsizio (Va)" class="img-responsive photo">
+                    <figcaption>Nei panni di storyteller durante un Capodanno Celtico a Busto Arsizio (Va) - Foto di MBR Photography</figcaption>
                 </figure>
                 <div class="card">
                     <div class="header-flex-between">
