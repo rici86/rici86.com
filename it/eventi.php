@@ -94,7 +94,10 @@
 
             <section class="main-row" aria-labelledby="#secton-title-3">
                 <div class="card">
-                    <h2 class="card-title" id="secton-title-3">"I Misteri del Castello"</h2>
+                    <div class="header-flex-between">
+                        <h2 class="card-title" id="secton-title-3">"I Misteri del Castello"</h2>
+                        <a href="misteri-del-castello.php" target="_blank" class="button button-main">Scopri di più</a>
+                    </div>
                     <p>
                         Grazie all'esperienza con Autunnonero, nell'ottobre 2013 ho ideato "I Misteri del Castello", uno speciale spettacolo itinerante al Castello di Zavattarello (Pv) per scoprire i luoghi protagonisti della sua leggenda e dei misteriosi avvenimenti ad essa collegati.
                     </p>
@@ -109,9 +112,9 @@
                         <br>Una serie di eventi inspiegabili.
                         <br>Un viaggio per scoprirli..."
                     </blockquote>
-                    <div class="horizontal-center">
+                    <!-- <div class="horizontal-center">
                         <a href="https://www.youtube.com/watch?v=KgMdM7nA7ZM&t=2s" target="_blank" class="button button-main">Guarda il trailer video</a>
-                    </div>
+                    </div> -->
                 </div>
                 <figure class="">
                     <img src="../src/img/foto/2019-misteri.jpg" alt="" class="img-responsive photo">

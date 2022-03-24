@@ -39,38 +39,55 @@
                     <h1 class="card-title" id="secton-title-1">I Misteri del Castello</h1>
                     <p>
                         Dalle leggende agli strani avvenimenti, attraverso le indagini dei ricercatori del paranormale, il visitatore puà immergersi per una notte nei misteri del Castello di Zavattarello, legati a un ormai celebre assassinio.
-                        <br>Si narra che Pietro Dal Verme, avvelenato dalla sua seconda moglie Chiara Sforza il 17 ottobre 1485, sia la presenza che aleggia nelle sale del suo antico maniero.
+                    </p>
+                    <p>
+                        Si narra che Pietro Dal Verme, avvelenato dalla sua seconda moglie Chiara Sforza il 17 ottobre 1485, sia la presenza che aleggia nelle sale del suo antico maniero.
                         <br>Diversi fatti inspiegabili hanno avuto luogo all'interno del castello nel corso della sua lunga storia: proprio a partire da questi, i ricercatori del paranormale hanno intrapreso indagini di tipo scientifico per saperne di più. 
-                        <br>Durante questa particolare serata, i visitatori vengono condotti nello speciale <i>viaggio nel mistero</i>, per scoprire i luoghi protagonisti della leggenda e dei misteriosi avvenimenti ad essa collegati. 
-                        <br>Non una visita guidata del tipo consueto, per raccontare vicende storiche e ammirare l'architettura della rocca millenaria, ma un vero e proprio viaggio per conoscerne il lato più misterioso e oscuro. 
+                    </p>
+                    <p>
+                        Durante questa particolare serata, i visitatori vengono condotti nello speciale <i>viaggio nel mistero</i>, per scoprire i luoghi protagonisti della leggenda e dei misteriosi avvenimenti ad essa collegati. 
+                    </p>
+                    <p>
+                        Non una visita guidata del tipo consueto, per raccontare vicende storiche e ammirare l'architettura della rocca millenaria, ma un vero e proprio viaggio per conoscerne il lato più misterioso e oscuro. 
                         <br>Un percorso che guida all'interno di ogni sala del castello in uno spettacolo itinerante: bisogna prestare attenzione perché dietro ogni angolo potrebbe celarsi una sorpresa... 
                     </p>
+                    
+                    <div class="horizontal-center">
+                        <a href="https://vimeo.com/211328498" target="_blank" class="button button-main">Guarda il trailer video</a>
+                    </div>
+                </div>
+                <div class="">
+                    <?php require_once '../include/slider-misteri.php';?>   
+                </div>
+            </section>
+
+            <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
+                <figure class="">
+                    <img src="../src/img/foto/2019-misteri.jpg" alt="" class="img-responsive photo">
+                    <figcaption></figcaption>
+                </figure>
+                <div class="card">
+                    <h2 class="card-title" id="section-title-2">Un viaggio nel mistero</h2>
+                    <p>
+                        <i>"I Misteri del Castello"</i> è un'esperienza emozionale, uno spettacolo teatrale, un percorso attraverso il tempo e lo spazio, al confine tra suggestione e realtà. 
+                    </p>
+                    <p>
+                        Ed è difficile distinguere tra le due: chiusi in un antico castello, separati dal mondo esterno, in un luogo dove passato e presente si fondono, accompagnati da personaggi usciti dal Medioevo che si mescolano ad altri del nostro presente.
+                    </p>
+                    <p>
+                        Bisogna fare attenzione: come sosteneva Hemingway, è facilissimo reagire con freddezza alle cose durante il giorno, ma di notte è tutto un altro discorso.                        
+                    </p>
+                    <p>
+                        In un luogo così carico di emozioni, accompagnati dai protagonisti dei racconti più misteriosi, può diventare difficile distinguere tra suggestione e realtà. 
+                        <br>Per questo è consigliato seguire il percorso tracciato e avventurarsi in questo viaggio con la mente aperta e pronti alle sorprese. 	  
+                    </p>          
                     <blockquote>
                         Una fredda notte di ottobre di tanti secoli fa.
                         <br>Un avvelenamento che è rimasto nella storia,
                         <br>ma che è entrato anche nella leggenda.
                         <br>Una serie di eventi inspiegabili.
                         <br>Un viaggio per scoprirli..."
-                    </blockquote>
-                    <div class="horizontal-center">
-                        <a href="https://vimeo.com/211328498" target="_blank" class="button button-main">Guarda il trailer video</a>
-                    </div>
-                </div>
-                <figure class="">
-                    <img src="../src/img/foto/2019-misteri.jpg" alt="" class="img-responsive photo">
-                    <figcaption></figcaption>
-                </figure>
-            </section>
-
-            <section class="main-row main-row-invert" aria-labelledby="#secton-title-2">
-                <figure class="">
-                    <img src="../src/img/foto/.jpg" alt="" class="img-responsive photo">
-                    <figcaption></figcaption>
-                </figure>
-                <div class="card">
-                    <h2 class="card-title" id="section-title-2"></h2>
-                    <p>
-                    </p>                                      
+                    </blockquote>                            
                 </div>
             </section>
 
