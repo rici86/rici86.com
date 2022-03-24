@@ -108,13 +108,13 @@
             </section>
 
             <section class="main-row main-row-invert" aria-labelledby="#secton-title-4">
+                <div class="">
+                    <?php require_once '../include/slider-misteri-stampa.php';?>   
+                </div>
                 <div class="card">
                     <h2 class="card-title" id="secton-title-4">La ricezione del pubblico: tutto sold-out</h2>
                     <p>
                     </p>                    
-                </div>
-                <div class="">
-                    <?php require_once '../include/slider-misteri-stampa.php';?>   
                 </div>
             </section>
 
