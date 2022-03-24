@@ -480,6 +480,9 @@ p.sito-date {
 p.sito-url {
     margin-bottom: 0;
 }
+.sito-description.no-flex {
+    display: block;
+}
 
 /* Slick slider  */
 /* To prevend slider from getting too big */
