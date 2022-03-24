@@ -18,10 +18,6 @@
 	
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
-    <!-- slick slider  -->
-    <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
-
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
@@ -157,25 +153,6 @@
         <?php require_once 'include/footer.php';?>
 
     </div>
-
-    <!-- slick slider  -->
-    <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
-    <script type="text/javascript" src="../src/slick/slick.min.js"></script>
-    <script>
-        $('.slider-siti').slick({
-            rows: 1,
-            infinite: true,
-            autoplay: false,
-            arrows: true,
-            dots: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            swipe: true,
-            swipeToSlide: true,
-            pauseOnHover: true,
-            lazyLoad: 'ondemand'
-        });
-    </script>
 
     <!-- <?php require_once 'include/footer.php';?> -->
 
