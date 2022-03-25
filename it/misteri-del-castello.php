@@ -99,11 +99,18 @@
                 <div class="card">
                     <h2 class="card-title" id="secton-title-3">L'idea, il cast, lo spettacolo</h2>
                     <p>
-                        Conosco bene il Castello di Zavattarello e le sue vicende storiche o inspiegabili. 
-                        <br>Pietro Dal Verme è un personaggio storico realmente vissuto, sul quale ho effettuato ricerche storiche e su cui c'è molto da raccontare. 
-                        <br>Si dice anche che possa essere il fantasma a cui molti attribuiscono una lunga serie di fatti insoliti avvenuti nelle sale del castello. 
-                        <br>É una storia affascinante, che si svolge in un luogo che sarebbe emozionante anche senza conoscere questa leggenda. 
+                        All'inizio "I Misteri del Castello" è nato come visita guidata tematica a contorno di una conferenza sul paranormale, con alcuni personaggi in costume a corollario. 
+                        <br>Il successo di quella prima serata fu tale che scrissi un vero e proprio copione teatrale, messo in scena con <a href="https://www.iannatampe.it">l'Associazione Iannà Tampé</a>. 
+                        <br>La loro abilità con l'illusionismo, le scenografie, gli show dal vivo e gli effetti speciali ha dato allo spettacolo gli ingredienti necessari per accrescerne il successo ad ogni edizione.
                     </p>   
+                    <p>
+                        É così che, unendo l'esperienza nell'arte dell'intrattenimento con la mia di storyteller e la conoscenza di entrambi del luogo, abbiamo cucito un evento sartoriale attorno al Castello di Zavattarello e alle sue vicende misteriose. 
+                    </p>
+                    <p>
+                        Nelle sale di un castello così emozionante, però, non sempre è facile per il visitatore capire se ciò che sta vedendo è parte delle illusioni dello spettacolo oppure è reale. 
+                        <br>E gran parte del fascino de "I Misteri del Castello" sta nel fatto che tutti gli avvenimenti raccontati in scena sono fatti documentati realmente accaduti. 
+                        <br>Aver saputo lavorare su questa linea di demarcazione così sottile tra finzione teatrale e realtà ha dato all'evento quel qualcosa in più.
+                    </p>
                 </div>
                 <figure class="">
                     <img src="../src/img/misteri/misterigruppo2017aprile.jpg" alt="Il cast dei Misteri del Castello dell'edizione dell'aprile 2017 - Foto di Angelo Cannella" class="img-responsive photo">
@@ -118,7 +125,24 @@
                 <div class="card">
                     <h2 class="card-title" id="secton-title-4">La ricezione del pubblico: tutto sold-out</h2>
                     <p>
-                    </p>                    
+                        Un po' di numeri?
+                    </p>                 
+                    <p>
+                        Più di 2500 partecipanti, 13 serate sold-out in 6 anni, 18 attori e comparse. 
+                    </p>   
+                    <p>
+                        É incredibile pensare che in alcuni casi la lunghezza della lista di attesa superava quella della lista di prenotati! 
+                        <br>Nel 2016 l'evento ha registrato il tutto esaurito ben 18 giorni prima della data. 
+                        <br>Decine e decine sono stati i siti web e i quotidiani che hanno dedicato spazio allo spettacolo, prima e dopo ogni serata. 
+                    </p>
+                    <p>
+                        "I Misteri del Castello" ha visto partecipanti non solo dal Nord Ovest ma anche dal Veneto, dal Centro Italia, da Monaco di Baviera, dalla Svizzera.
+                        <br>Potere del web, visto che la comunicazione è stata, dalla terza edizione, sempre esclusivamente online. 
+                    </p>
+                    <p>
+                        E spesso non si è trattato di partecipazioni episodiche: c'è chi ha voluto partecipare anche a tre edizioni di seguito. 
+                        <br>Spesso, non facevamo in tempo a disallestire una serata che già ricevevamo richieste di conoscere la data successiva.
+                    </p>
                 </div>
             </section>
 
