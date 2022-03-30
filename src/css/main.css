@@ -426,6 +426,10 @@ main {
     display: flex;
     justify-content: center;
 }
+.position-right {
+    display: flex;
+    justify-content: flex-end
+}
 
 /* cards  */
 .card {
