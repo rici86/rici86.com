@@ -27,6 +27,13 @@
             <p class="sito-date">Novembre 2016</p>            
         </div>  
     </div>
+    <div class="box-sito">
+        <img src="../src/press/recensione-2018-05-04.png" alt="" class="img-responsive">      
+        <div class="sito-description no-flex">            
+            <p class="sito-url">Recensione da Tripadvisor</p>
+            <p class="sito-date">Primavera 2018</p>            
+        </div>  
+    </div>
 </div>
 
 <!-- slick slider  -->
