@@ -40,20 +40,20 @@
         <main class="with-shape-divider">
             <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
-                    <h1 class="card-title" id="secton-title-1">Come ho iniziato a organizzare eventi: le rievocazioni</h1>
+                    <h1 class="card-title" id="secton-title-1">How I began organising events: reenactments</h1>
                     <p>
-                        Ho iniziato a organizzare eventi quasi per caso. 
-                        <br>I primi sono stati nel 2009, il primo concerto solista di mia madre e una mostra al Museo di cui ero diventata direttore da pochi mesi. 
+                        I could say I began organising events by chance. 
+                        <br>The first ones were in 2009: the first concert by my mother and an art exhibition for the Museum for which I became the director the very same year. 
                     </p>
                     <p>
-                        Nel 2012, la prima rievocazione storica medievale. Fino a quel momento avevo sempre partecipato alle Giornate Medievali di Zavattarello come accompagnatore museale, entravo nell'atmosfera della festa presentandomi al pubblico con un abito a tema. 
-                        <br>A tre settimane dall'evento di quell'agosto, tutto da rifare: tocca a me riorganizzare gli spettacoli da zero, su due piedi. 
-                        <br>Avendo diversi amici e conoscenti all'interno di gruppi di rievocazione, sono riuscita a trovare rievocatori disponibili che ci hanno permesso di salvare la festa. 
+                        In 2012, my first Medieval reenactment. Before that moment, I always attended the Medieval Days of Zavattarello as museum educator. I took part in the event's athmosphere wearing Medieval-like clothes. 
+                        <br>But three weeks before the event that year, we had to start anew from the very beginning: I had to reorganise all the shows from scratch. 
+                        <br>Since I have several friends and acquaintances in reenactment groups, I was able to find reenactors willing to participate and we saved the event.
                     </p>
                     <p>
-                        Da quel momento è iniziata la mia passione per l'organizzazione di eventi.
-                        <br>Mi sono occupata di organizzare, gestire e coordinare gli spettacoli delle Giornate Medievali fino al 2019. È stato uno degli eventi più faticosi e impegnativi, ma soprattutto ricco di soddisfazioni. 
-                        <br>In famiglia abbiamo anche la passione per la rievocazione, quindi è stato un attimo coinvolgere i miei familiari. Abbiamo contemporaneamente affinato la nostra storicità come rievocatori e offerto al pubblico un evento sempre più gradito. 
+                        That was the beginning of my passion for events organisation.
+                        <br>I've been planning, organising, coordinating the shows for the Medieval Days since 2019. It was one of the hardest and most tiring events, but full of satisfactions.
+                        <br>Our family also has a passion for reenactment, so my kins were happy to be part of the event. Abbiamo contemporaneamente affinato la nostra storicità come rievocatori e offerto al pubblico un evento sempre più gradito. 
                     </p>
                     
                 </div>
