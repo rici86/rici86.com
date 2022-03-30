@@ -38,7 +38,7 @@
         </a>
 
         <main class="with-shape-divider">
-        <section class="main-row" aria-labelledby="#secton-title-1">
+            <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
                     <h1 class="card-title" id="secton-title-1">A passion for writing since childhood</h1>
                     <p>
