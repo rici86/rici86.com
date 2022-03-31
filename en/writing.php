@@ -37,7 +37,7 @@
             <img src="../src/img/ita.png" alt="Italiano" class="lang">
         </a>
 
-        <main class="with-shape-divider">
+        <main class="with-shape-divider" id="main-content">
             <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
                     <h1 class="card-title" id="secton-title-1">A passion for writing since childhood</h1>

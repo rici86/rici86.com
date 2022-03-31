@@ -33,7 +33,7 @@
             <img src="../src/img/eng.png" alt="English" class="lang">
         </a>
 
-        <main class="with-shape-divider">
+        <main class="with-shape-divider" id="main-content">
             <section class="main-row" aria-labelledby="#section-title-1">
                 <div class="card" id="section-title-1">
                     <h1 class="card-title">Qualcosa su di me</h1>

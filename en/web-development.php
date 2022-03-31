@@ -37,7 +37,7 @@
             <img src="../src/img/ita.png" alt="Italiano" class="lang">
         </a>
 
-        <main class="with-shape-divider">
+        <main class="with-shape-divider" id="main-content">
             <section class="main-row">
                 <div class="card">
                     <h1 class="card-title">Web sites</h1>

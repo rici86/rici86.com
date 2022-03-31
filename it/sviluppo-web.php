@@ -37,7 +37,7 @@
             <img src="../src/img/eng.png" alt="English" class="lang">
         </a>
 
-        <main class="with-shape-divider">
+        <main class="with-shape-divider" id="main-content">
             <section class="main-row" aria-labelledby="#secton-title">
                 <div class="card">
                     <h1 class="card-title" id="section-title">Siti web</h1>

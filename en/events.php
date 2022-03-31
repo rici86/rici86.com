@@ -37,7 +37,7 @@
             <img src="../src/img/ita.png" alt="Italiano" class="lang">
         </a>
 
-        <main class="with-shape-divider">
+        <main class="with-shape-divider" id="main-content">
             <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
                     <h1 class="card-title" id="secton-title-1">How I began organising events: reenactments</h1>
@@ -59,7 +59,7 @@
                 </div>
                 <figure class="">
                     <img src="../src/img/foto/2019-gmzava01-mbr.jpg" alt="" class="img-responsive photo">
-                    <figcaption>Foto by MBR Photography</figcaption>
+                    <figcaption>Photo by MBR Photography</figcaption>
                 </figure>
             </section>
 
