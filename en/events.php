@@ -40,7 +40,10 @@
         <main class="with-shape-divider" id="main-content">
             <section class="main-row" aria-labelledby="#secton-title-1">
                 <div class="card">
-                    <h1 class="card-title" id="secton-title-1">How I began organising events: reenactments</h1>
+                    <div class="header-flex-between">
+                        <h1 class="card-title" id="secton-title-1">How I began organising events: reenactments</h1>
+                        <a href="misteries-castle.php" class="button button-main">Discover more</a>
+                    </div>
                     <p>
                         I could say I began organising events by chance. 
                         <br>The first ones were in 2009: the first concert by my mother and an art exhibition for the Museum for which I became the director the very same year. 
