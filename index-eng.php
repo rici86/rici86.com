@@ -31,7 +31,7 @@
             <img src="src/img/ita.png" alt="Italiano" class="lang">
         </a>
     </header>
-    <div class="home-container">
+    <section class="home-container" id="main-content" aria-label="Rici86">
         <div class="home-left">
             <img src="src/img/logo-esteso-bianco.png" alt="Rici86" class="logo">
             
@@ -50,7 +50,7 @@
         <div class="home-right">
             <img src="src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
         </div>  
-    </div>
+    </section>
     
 </body>
 </html>

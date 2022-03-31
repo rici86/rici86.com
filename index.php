@@ -12,7 +12,7 @@
 	
     <meta property="article:author" content="https://www.facebook.com/rici86" />
     <meta property="og:title" content="Rici86 - Coder, Crafter, Creative" />
-    <meta property="og:description" content="Front-end developer per lavoro, di formazione archeologa, crafter e Irish dance nerd per passione" />
+    <meta property="og:description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="src/img/rici86-sara-rossi.jpg" />
 	
@@ -31,7 +31,7 @@
             <img src="src/img/eng.png" alt="English" class="lang">
         </a>
     </header>
-    <div class="home-container">
+    <section class="home-container" id="main-content" aria-label="Rici86">
         <div class="home-left">            
             <img src="src/img/logo-esteso-bianco.png" alt="Rici86" class="logo">
 
@@ -50,7 +50,7 @@
         <div class="home-right">
             <img src="src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
         </div>  
-    </div>
+    </section>
     
 </body>
 </html>
