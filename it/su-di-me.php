@@ -187,7 +187,7 @@
                         Mostre, concerti, serate danzanti, visite a tema e teatrali, spettacoli, rievocazioni, conferenze, proiezioni, presentazioni di libri (<a href="scrittura.php">anche miei!</a>), persino matrimoni! 
                     </p>
                     <p>
-                        L'elenco sarebbe lungo. Alcuni eventi sono diventati una tradizione e hanno visto decine di edizioni, uno su tutti <a href="misteri-castello.php">"I Misteri del Castello"</a>. Un evento speciale, uno spettacolo scritto e pensato per il luogo in cui si svolge, lavorando con un team affiatato e professionale, <a href="https://www.iannatampe.com/">l'Associazione Culturale Iannà Tampé</a>.
+                        L'elenco sarebbe lungo. Alcuni eventi sono diventati una tradizione e hanno visto decine di edizioni, uno su tutti <a href="misteri-del-castello.php">"I Misteri del Castello"</a>. Un evento speciale, uno spettacolo scritto e pensato per il luogo in cui si svolge, lavorando con un team affiatato e professionale, <a href="https://www.iannatampe.com/">l'Associazione Culturale Iannà Tampé</a>.
                     </p>
                     <p>
                         Amo in particolare gli eventi dai temi insoliti, ad esempio quelli legati al mistero e al folklore. Ho adorato far parte dello staff dei <a href="http://www.autunnonero.com">Ghost Tour di Autunnonero</a> a Triora e Dolceacqua. Vestire i panni dello storyteller (in italiano e anche in inglese) è proprio nelle mie corde. 
