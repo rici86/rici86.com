@@ -2,7 +2,7 @@
     $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 <nav>
-    <a href="../index.html" class="nav-logo">
+    <a href="../index.php" class="nav-logo">
         <img src="../src/img/logobianco.png" alt="Rici86">
     </a>
     <div class="navbar" id="navigation">

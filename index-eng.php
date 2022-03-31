@@ -27,7 +27,7 @@
 </head>
 <body>
     <header class="home-header">
-        <a href="index.html" title="Italiano">
+        <a href="index.php" title="Italiano">
             <img src="src/img/ita.png" alt="Italiano" class="lang">
         </a>
     </header>
