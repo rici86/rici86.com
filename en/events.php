@@ -42,7 +42,7 @@
                 <div class="card">
                     <div class="header-flex-between">
                         <h1 class="card-title" id="secton-title-1">How I began organising events: reenactments</h1>
-                        <a href="misteries-castle.php" class="button button-main">Discover more</a>
+                        <a href="mysteries-castle.php" class="button button-main">Discover more</a>
                     </div>
                     <p>
                         I could say I began organising events by chance. 
