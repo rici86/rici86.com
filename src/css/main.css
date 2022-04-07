@@ -201,12 +201,13 @@ p {
 pre code {
     display: block;
     white-space: pre-wrap;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     text-align: left;
     font-size: 1rem;
     font-weight: 600;
     border: 1px solid var(--light);
     background-color: var(--dark);
+    border-radius: var(--main-border-radius);
 }
 
 /* Torna su  */
