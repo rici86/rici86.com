@@ -70,7 +70,10 @@
                     <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
                 </figure>
                 <div class="card">
-                    <h2 class="card-title" id="section-title-1">CSS, la mia prima passione</h2>
+                    <div class="header-flex-between">
+                        <h2 class="card-title" id="section-title-1">CSS, la mia prima passione</h2>
+                        <a href="https://codepen.io/rici86" class="button button-main">Di più su Codepen</a>
+                    </div>
                     <p>
                         Quando ho iniziato ad appassionarmi allo sviluppo web, aprendo il codice sorgente dei siti di altri per vedere com'erano fatti, mi sono subito innamorata del CSS.                         
                         <br>Adoravo giocare con l'inspector e vedere l'aspetto della pagina cambiare sotto i miei occhi come volevo io.
