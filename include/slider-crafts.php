@@ -9,3 +9,22 @@
         </div>
     </div>
 </div>
+
+<!-- slick slider  -->
+    <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
+    <script type="text/javascript" src="../src/slick/slick.min.js"></script>
+    <script>
+        $('.slider-siti').slick({
+            rows: 1,
+            infinite: true,
+            autoplay: false,
+            arrows: true,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            swipe: true,
+            swipeToSlide: true,
+            pauseOnHover: true,
+            lazyLoad: 'ondemand'
+        });
+    </script>

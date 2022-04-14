@@ -38,9 +38,9 @@
         </a>
 
         <main class="with-shape-divider" id="main-content">
-            <section class="main-row">
+            <section class="main-row" aria-labelledby="#section-title-1">
                 <div class="card">
-                    <h1 class="card-title">DIY passion</h1>
+                    <h1 class="card-title" id="section-title-1">DIY passion</h1>
                     <p>
                         I've always shared my do-it-yourself passion with my family, my husband in particular. More than once we happened to be speaking with friends or colleagues about one of the crafts we made, and most of the time we didn't have a photo to show. Several things are on my Instagram profile, but that's far from complete.
                     </p>
@@ -71,25 +71,6 @@
 
         </main>
         
-       <!-- slick slider  -->
-        <!-- <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
-        <script type="text/javascript" src="../src/slick/slick.min.js"></script>
-        <script>
-            $('.slider-siti').slick({
-                rows: 1,
-                infinite: true,
-                autoplay: false,
-                arrows: true,
-                dots: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                swipe: true,
-                swipeToSlide: true,
-                pauseOnHover: true,
-                lazyLoad: 'ondemand'
-            });
-        </script> -->
-
         <?php require_once 'include/footer.php';?>
         <?php require_once '../include/torna-su.php';?>
 

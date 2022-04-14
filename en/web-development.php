@@ -38,9 +38,9 @@
         </a>
 
         <main class="with-shape-divider" id="main-content">
-            <section class="main-row">
+            <section class="main-row" aria-labelledby="#section-title-1">
                 <div class="card">
-                    <h1 class="card-title">Web sites</h1>
+                    <h1 class="card-title" id="section-title-1">Web sites</h1>
                     <p>
                         I started with a small website about one of my high school passions, then I began making websites for friends. After a couple of years, companies and the like came to me for collaborations.
                     </p>

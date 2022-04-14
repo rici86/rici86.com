@@ -67,12 +67,12 @@
                 </figure>
             </section>
             
-            <!-- <section class="main-row main-row-invert">
+            <!-- <section class="main-row main-row-invert" aria-labelledby="#section-title-2">
                 <div class="images">
                     <?php require_once '../include/slider-crafts.php';?>                    
                 </div>
                 <div class="card">
-                    <h2 class="card-title">#LRCrafts: "Se puoi pensarlo, puoi farlo"</h2>
+                    <h2 class="card-title" id="section-title-2">#LRCrafts: "Se puoi pensarlo, puoi farlo"</h2>
                     
                     <p>
                         Il nostro motto è 
@@ -89,25 +89,6 @@
         <?php require_once 'include/footer.php';?>
 
     </div>
-
-    <!-- slick slider  -->
-    <!-- <script type="text/javascript" src="../src/jquery-3.6.0.slim.min.js"></script>
-    <script type="text/javascript" src="../src/slick/slick.min.js"></script>
-    <script>
-        $('.slider-siti').slick({
-            rows: 1,
-            infinite: true,
-            autoplay: false,
-            arrows: true,
-            dots: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            swipe: true,
-            swipeToSlide: true,
-            pauseOnHover: true,
-            lazyLoad: 'ondemand'
-        });
-    </script> -->
 
     <!-- <?php require_once 'include/footer.php';?> -->
 

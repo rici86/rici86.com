@@ -34,9 +34,9 @@
         </a>
 
         <main class="with-shape-divider" id="main-content">
-            <section class="main-row">
+            <section class="main-row" aria-labelledby="#section-title-1">
                 <div class="card">
-                    <h1 class="card-title">About me</h1>
+                    <h1 class="card-title" id="section-title-1">About me</h1>
                     <p>
                         Welcome to my tiny web harbour.
                         <br>If you came thus far, I suppose you want to know me better.
@@ -67,13 +67,13 @@
                 </div>
             </section>
 
-            <section class="main-row main-row-invert" id="percorso">                
+            <section class="main-row main-row-invert" id="percorso" aria-labelledby="#section-title-2">                
                 <div class="images">
                     <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
                     <div class="header-flex-between">
-                        <h2 class="card-title">My path towards web development </h2>
+                        <h2 class="card-title" id="section-title-2">My path towards web development </h2>
                         <a href="web-development.php" class="button button-main button-small">More</a>
                     </div>
                     <p>
@@ -98,9 +98,9 @@
                 </div>
             </section>
 
-            <section class="main-row" id="oggi">
+            <section class="main-row" id="oggi" aria-labelledby="#section-title-3">
                 <div class="card">
-                    <h2 class="card-title">My job today</h2>
+                    <h2 class="card-title" id="section-title-3">My job today</h2>
                     <p>
                         And here I am, now, happy with CSS (my first love), HTML, SASS, Javascript and the like, Php, Laravel and more. 
                     </p>
@@ -124,12 +124,12 @@
                 </div>
             </section>
             
-            <section class="main-row main-row-invert" id="archeo">
+            <section class="main-row main-row-invert" id="archeo" aria-labelledby="#section-title-4">
                 <div class="images">
                     <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
-                    <h2 class="card-title">What about my "archaeological" past?</h2>
+                    <h2 class="card-title" id="section-title-4">What about my "archaeological" past?</h2>
                     <p>
                         I studied at the University of Pavia, where I got a master's degree in Classica Archaeology and a bachelor's degree in Cultural Heritage. 
                     </p>
@@ -149,9 +149,9 @@
                 </div>
             </section>
 
-            <section class="main-row" id="irlanda">
+            <section class="main-row" id="irlanda" aria-labelledby="#section-title-5">
                 <div class="card">
-                    <h2 class="card-title">Tourist guide in Italy and Ireland</h2>
+                    <h2 class="card-title" id="section-title-5">Tourist guide in Italy and Ireland</h2>
                     <p>
                         I've been working in museums and cultural heritage sites for several years, in a particular museum for 16 years. Even today most refer to me as "the castle keeper" because of that long experience working for the Castle of Zavattarello. There, I've been the director for many years, I conceived and organised several events, so I think it's normal that I will keep forever this undeletable label. 
                     </p>
@@ -173,13 +173,13 @@
                 </div>
             </section>
 
-            <section class="main-row main-row-invert" id="turismo">
+            <section class="main-row main-row-invert" id="turismo" aria-labelledby="#section-title-6">
             <div class="images">
                     <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
                 </div>
                 <div class="card">
                     <div class="header-flex-between">
-                        <h2 class="card-title">Event organiser</h2>
+                        <h2 class="card-title" id="section-title-6">Event organiser</h2>
                         <a href="events.php" class="button button-main button-small">More</a>
                     </div>
                     <p>
