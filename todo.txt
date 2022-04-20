@@ -1,4 +1,0 @@
-- sections: aria-labelledby="#iddeltitolo"
-- foto: figure e figcaption
-- immagini: alt text
-- meta descr and co
