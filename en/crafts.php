@@ -62,9 +62,9 @@
                         <a href="https://www.lrcrafts.it" class="button button-main">#LRCrafts.it</a>
                     </div>
                 </div>
-                <div class="">
-                    <img src="../src/img/foto/2019-crafts.jpg" alt="" class="img-responsive photo">
-                </div>
+                <figure class="">
+                    <img src="../src/img/foto/2019-crafts.jpg" alt="My embroidery hobby even during the commute to work - #LRCrafts" class="img-responsive photo">
+                </figure>
             </section>
 
             <?php require_once '../include/shape-divider.php';?>

@@ -65,7 +65,7 @@
                     </blockquote>
                 </div>
                 <figure class="">
-                    <img src="../src/img/foto/2014-presentazionelibro.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2014-presentazionelibro.jpg" alt="The presentation of the book Misteri e manieri d'Oltrepò, with one of my tales" class="img-responsive photo">
                     <figcaption>The presentation of the book "Misteri e manieri d'Oltrepò", with one of my tales</figcaption>
                 </figure>
             </section>

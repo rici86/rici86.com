@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <figure class="">
-                    <img src="../src/img/foto/2019-crafts.jpg" alt="" class="img-responsive photo">
+                    <img src="../src/img/foto/2019-crafts.jpg" alt="L'hobby per il ricamo persino sugli autobus andando al lavoro - #LRCrafts" class="img-responsive photo">
                 </figure>
             </section>
             
