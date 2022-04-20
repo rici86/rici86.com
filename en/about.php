@@ -62,15 +62,15 @@
                         I hear you asking now <i>"How did you happen to be a developer for a company that crafts software for other companies, then?"</i>
                     </p>
                 </div>
-                <div class="images">
-                    <img src="../src/img/foto/2019-rici.jpg" alt="" class="img-responsive photo" style="filter: saturate(1.2);">
-                </div>
+                <figure class="images">
+                    <img src="../src/img/foto/2019-rici.jpg" alt="Sara Rossi, aka Rici86" class="img-responsive photo" style="filter: saturate(1.2);">
+                </figure>
             </section>
 
             <section class="main-row main-row-invert" id="percorso" aria-labelledby="#section-title-2">                
-                <div class="images">
-                    <img src="../src/img/foto/2018-corso.jpg" alt="" class="img-responsive photo">
-                </div>
+                <figure class="images">
+                    <img src="../src/img/foto/2018-corso.jpg" alt="SEO course" class="img-responsive photo">
+                </figure>
                 <div class="card">
                     <div class="header-flex-between">
                         <h2 class="card-title" id="section-title-2">My path towards web development </h2>
@@ -119,15 +119,16 @@
                     
                     <?php require_once '../include/code-icons.php';?>
                 </div>
-                <div class="images">
-                    <img src="../src/img/foto/2020-office.jpg" alt="" class="img-responsive photo">
-                </div>
+                <figure class="images">
+                    <img src="../src/img/foto/2020-office.jpg" alt="At work developing an interactive demo" class="img-responsive photo">
+                </figure>
             </section>
             
             <section class="main-row main-row-invert" id="archeo" aria-labelledby="#section-title-4">
-                <div class="images">
-                    <img src="../src/img/foto/2009-scavo.jpg" alt="" class="img-responsive photo">
-                </div>
+                <figure class="images">
+                    <img src="../src/img/foto/2009-scavo.jpg" alt="Archaeological dig at Piana di San Martino, Pianello Val Tidone (Pc - Italy)" class="img-responsive photo">
+                    <figcaption>Archaeological dig at Piana di San Martino, Pianello Val Tidone (Pc - Italy)</figcaption>
+                </figure>
                 <div class="card">
                     <h2 class="card-title" id="section-title-4">What about my "archaeological" past?</h2>
                     <p>
@@ -168,15 +169,17 @@
                         I would give a special mention to the events I organised.
                     </p>
                 </div>
-                <div class="images">
-                    <img src="../src/img/foto/2011-visitamuseale.jpg" alt="" class="img-responsive photo">
-                </div>
+                <figure class="images">
+                    <img src="../src/img/foto/2011-visitamuseale.jpg" alt="During a guided tour to the Contemporary Art Museum in the Castle of Zavattarello" class="img-responsive photo">
+                    <figcaption>During a guided tour to the Contemporary Art Museum in the Castle of Zavattarello</figcaption>
+                </figure>
             </section>
 
             <section class="main-row main-row-invert" id="turismo" aria-labelledby="#section-title-6">
-            <div class="images">
-                    <img src="../src/img/foto/2016-storyteller.jpg" alt="" class="img-responsive photo">
-                </div>
+                <figure class="images">
+                    <img src="../src/img/foto/2016-storyteller.jpg" alt="As a storyteller during a Celtic New Year in Busto Arsizio (Va - Italy)" class="img-responsive photo">
+                    <figcaption>As a storyteller during a Celtic New Year in Busto Arsizio (Va - Italy) - Photo by MBR Photography</figcaption>
+                </figure>
                 <div class="card">
                     <div class="header-flex-between">
                         <h2 class="card-title" id="section-title-6">Event organiser</h2>

@@ -47,9 +47,9 @@
                 <a href="en/crafts.php" class="button button-main">Crafts</a>
             </div>
         </div>
-        <div class="home-right">
+        <figure class="home-right">
             <img src="src/img/rici86-sara-rossi.jpg" alt="" class="img-responsive photo">
-        </div>  
+        </figure>  
     </section>
     
 </body>
