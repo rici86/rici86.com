@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>My portfolio | Rici86: Coder, Crafter, Creative </title>
+    <title>My portfolio | Rici86: Coder, Crafter, Creative and a little Nerd </title>
 
     <!-- Meta tags  -->
     <meta name="description" content="Front-end developer as a living, crafter and Irish dance nerd for passion" />
 	
     <meta property="article:author" content="https://www.facebook.com/rici86" />
-    <meta property="og:title" content="Rici86 - Coder, Crafter, Creative" />
+     and a little Nerd" />
     <meta property="og:description" content="Front-end developer as a living, crafter and Irish dance nerd for passion" />
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="../src/img/spirit-of-the-forest.jpg" />

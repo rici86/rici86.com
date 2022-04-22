@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Rici86 | Coder, Crafter, Creative </title>
+    <title>Rici86 | Coder, Crafter, Creative e anche un po' Nerd </title>
 
     <!-- Meta tags  -->
     <meta name="description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
 	
     <meta property="article:author" content="https://www.facebook.com/rici86" />
-    <meta property="og:title" content="Rici86 - Coder, Crafter, Creative" />
+    <meta property="og:title" content="Rici86 - Coder, Crafter, Creative e anche un po' Nerd" />
     <meta property="og:description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="src/img/rici86-sara-rossi.jpg" />
@@ -34,6 +34,8 @@
     <section class="home-container" id="main-content" aria-label="Rici86">
         <div class="home-left">            
             <img src="src/img/logo-esteso-bianco.png" alt="Rici86" class="logo">
+
+            <p>Coder, Crafter, Creative e anche un po' Nerd</p>
 
             <?php require_once 'include/code-bio.php';?>
 

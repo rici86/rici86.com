@@ -359,8 +359,8 @@ main.with-shape-divider {
     height: auto;
 }
 .home-left p {
-    font-size: 1.3rem;
-    margin: 2rem 0 2.5rem 0;
+    font-size: 1.15rem;
+    margin: 0 0 2.5rem 0;
 }
 .home-left .social {
     display: flex;
