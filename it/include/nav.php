@@ -9,6 +9,7 @@
         <a href="su-di-me.php" class="button button-main <?= (in_array($activePage, ['su-di-me'])) ? 'active':''; ?>">Su di me</a>
         <a href="sviluppo-web.php" class="button button-main <?= (in_array($activePage, ['sviluppo-web'])) ? 'active':''; ?>">Sviluppo web</a>
         <a href="eventi.php" class="button button-main <?= (in_array($activePage, ['eventi', 'misteri-del-castello'])) ? 'active':''; ?>">Eventi</a>
+        <a href="danza-irlandese.php" class="button button-main <?= (in_array($activePage, ['danza-irlandese'])) ? 'active':''; ?>">Danza irlandese</a>
         <a href="scrittura.php" class="button button-main <?= (in_array($activePage, ['scrittura'])) ? 'active':''; ?>">Scrittura</a>
         <a href="fai-da-te.php" class="button button-main <?= (in_array($activePage, ['fai-da-te'])) ? 'active':''; ?>">Fai-da-te</a>
     </div>
