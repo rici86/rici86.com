@@ -42,7 +42,7 @@
                 <div class="card">
                     <h1 class="card-title" id="section-title-1">Danza irlandese: una passione per tutto ciò che è Irlanda</h1>
                     <p>
-                        L'amore per l'Irlanda mi accompagna da quando ho memoria. In famiglia mi dicono sia nato quando ho scoperto la musica irlandese e scozzese.
+                        L'amore per l'Irlanda mi accompagna da quando ho memoria. In famiglia mi dicono sia nato da bambina quando ho scoperto la musica irlandese e scozzese.
                         <br>Credo che quei ritmi di <i>reel</i> e <i>jig</i> vibrino all'unisono con la mia anima.
                     </p>
                     <p>
