@@ -45,6 +45,7 @@
                 <a href="it/su-di-me.php" class="button button-main">Su di me</a>
                 <a href="it/sviluppo-web.php" class="button button-main">Sviluppo web</a>
                 <a href="it/eventi.php" class="button button-main">Eventi</a>
+                <a href="it/danza-irlandese.php" class="button button-main">Danza irlandese</a>
                 <a href="it/scrittura.php" class="button button-main">Scrittura</a>
                 <a href="it/fai-da-te.php" class="button button-main">Fai-da-te</a>
             </div>
