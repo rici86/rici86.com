@@ -50,26 +50,28 @@
                         <br>I lived and worked in Cork, for some unforgettable months deeply lost in the culture of what has become my second homeland.
                     </p>
                     <p>
-                        Quel periodo della mia vita è stato un'ulteriore conferma del fatto che l'Irlanda è fatta per me, e io sono fatta per l'Irlanda.
-                        <br>Mi è rimasta impressa una frase del mio primo padrone di casa: "<i>Tu sei più irlandese degli irlandesi</i>".
+                        Well, those months confirmed that Ireland suits me!
+                        <br>My landlord one day said to me "You are more Irish than the Irish themselves!".
                     </p>
                     <p>
-                        Qui ho toccato con mano la calorosa accoglienza degli irlandesi, che passano accanto a uno sconosciuto per strada e non mancano mai di augurargli una buona giornata.
-                        <br>Sono stata persino accolta da un gruppo di pensionati locali come un'amica di vecchia data <a href="https://rici86.blogspot.com/2014/05/my-search-of-craic.html">durante una loro serata danzante</a>!
+                        Here I experienced first hand how warm are Irish, who pass by a stranger along the road and never miss to greet him good day. 
+                        <br>A group of elderly locals even <a href="https://rici86.blogspot.com/2014/05/my-search-of-craic.html">welcomed me during a dance night</a>, as I was the daughter of an old friend!
                     </p>
                     <p>
-                        Ecco, è stato quell'episodio a farmi provare per la prima volta cosa volesse dire ballare al suono della musica irlandese. 
+                        Yes, that night I tried for the first time a dancing with Irish music.
                     </p>
                     <p>
-                        Ho sempre ammirato i ballerini di danza irlandese, ma ho avuto la prima occasione di provarla soltanto all'alba dei trent'anni. 
-                        <br>E una volta che l'ho provata, non sono più riuscita a smettere. 
+                        I've always admired the Irish dancers, but I had my occasion to try and be one only getting closer to my thirties.
+                        <br>And once I tried, I couldn't quit.
                     </p>
                     <blockquote>
-                        "Sending an audience home with an excited glow and raising their spirits on the way.
-                        This author went looking for that glow of spontaneous excitement 
-                        and found it in the kind of places we call home.
-                        And when everything comes together for that magical moment, we call it <span style="font-style: normal;">the craic</span>."
-
+                        "Sending an audience home with an excited glow 
+                        <br>and raising their spirits on the way.
+                        <br>This author went looking for that glow of spontaneous excitement 
+                        <br>and found it in the kind of places we call home.
+                        <br>And when everything comes together for that magical moment, 
+                        <br>we call it <span style="font-style: normal;">the craic</span>."
+                        <br>
                         <br>(Moya Brennan, preface to "In search of the craic" by Colin Irwin)
                     </blockquote>
                 </div>

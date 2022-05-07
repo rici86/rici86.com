@@ -45,6 +45,7 @@
                 <a href="en/about.php" class="button button-main">About</a>
                 <a href="en/web-development.php" class="button button-main">Web development</a>
                 <a href="en/events.php" class="button button-main">Events</a>
+                <a href="en/irish-dance.php" class="button button-main">Irish dance</a>
                 <a href="en/writing.php" class="button button-main">Writing</a>
                 <a href="en/crafts.php" class="button button-main">Crafts</a>
             </div>

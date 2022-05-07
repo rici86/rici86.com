@@ -74,8 +74,9 @@
                         <br>e risollevare i loro spiriti lungo la via.
                         <br>Questo autore è andato alla ricerca di quel bagliore di eccitazione spontanea
                         <br>e l'ha trovato in quei luoghi che chiamiamo casa.
-                        <br>E quando tutto si riunisce in quel magico momento, noi lo chiamiamo <span style="font-style: normal;">the craic</span>"
-
+                        <br>E quando tutto si riunisce in quel magico momento, 
+                        <br>noi lo chiamiamo <span style="font-style: normal;">the craic</span>"
+                        <br>
                         <br>(Moya Brennan, prefazione a "In search of the craic" di Colin Irwin)
                     </blockquote>    
                 </div>
@@ -97,7 +98,7 @@
                         <br>Ballare mi fa stare bene con me stessa e con la realtà che mi circonda. Condividerlo, poi, con le persone giuste è ancora meglio!
                     </p>
                     <p>
-                        All'Accademia di Danze Irlandesi Gens d'Ys ho trovato una famiglia, un Clan. 
+                        All'<a href="https://www.gensdys.it">Accademia di Danze Irlandesi Gens d'Ys</a> ho trovato una famiglia, un Clan. 
                         <br>Ci sono certo le lezioni, le competizioni e gli spettacoli, ma la cosa più importante è divertirsi insieme, viaggiare, incontrare nuovi amici alle serata danzanti, condividere la stessa passione, tenerci davvero l'uno all'altro.
                         <br>Accade spesso di incontrare persone nuove agli eventi dell'Accademia, e istantaneamente diventano parte integrante del gruppo.
                     </p>
