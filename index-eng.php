@@ -16,6 +16,8 @@
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="src/img/spirit-of-the-forest.jpg" />
 	
+    <link rel="canonical" href="https://www.rici86.com/index-eng.php" />
+
 	<link rel="shortcut icon" href="src/img/logofavicon.png" type="imag/png" />
 
     <!-- Css  -->

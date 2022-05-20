@@ -16,6 +16,8 @@
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="src/img/rici86-sara-rossi.jpg" />
 	
+    <link rel="canonical" href="https://www.rici86.com" />
+
 	<link rel="shortcut icon" href="src/img/logofavicon.png" type="imag/png" />
 
     <!-- Css  -->
