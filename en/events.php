@@ -55,7 +55,7 @@
                     </p>
                     <p>
                         That was the beginning of my passion for events organisation.
-                        <br>I've been planning, organising, coordinating the shows for the Medieval Days since 2019. It was one of the hardest and most tiring events, but full of satisfactions.
+                        <br>I've been planning, organising, coordinating the shows for the Medieval Days up to 2019. It was one of the hardest and most tiring events, but full of satisfactions.
                         <br>Our family also has a passion for reenactment, so my kins were happy to be part of the event. We both improved our historical accuracy as reenactors and offered to the audience an event that gained more and more praise. 
                     </p>
                     
