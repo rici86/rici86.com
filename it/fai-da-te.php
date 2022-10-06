@@ -71,7 +71,7 @@
                 <div class="images">
                     <?php require_once '../include/slider-crafts.php';?>                    
                 </div>
-                <div class="card">
+                <div class="card" style="display:none;">
                     <h2 class="card-title" id="section-title-2">#LRCrafts: "Se puoi pensarlo, puoi farlo"</h2>
                     
                     <p>
