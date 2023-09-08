@@ -304,7 +304,7 @@ footer {
 /* book shape divider bottom  */
 main.with-shape-divider {
     position: relative;
-    padding-bottom: calc(1rem + 81px);
+    padding-bottom: 0; /*calc(1rem + 81px);*/
 }
 .book-shape-divider {
     /* position: absolute;
