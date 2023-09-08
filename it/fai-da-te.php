@@ -18,10 +18,6 @@
 	
 	<link rel="shortcut icon" href="../src/img/logofavicon.png" type="imag/png" />
 
-    <!-- slick slider  -->
-    <!-- <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/> -->
-
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
     <link href="../src/fontawesome/css/all.css" rel="stylesheet">
@@ -66,21 +62,6 @@
                     <img src="../src/img/foto/2019-crafts.jpg" alt="L'hobby per il ricamo persino sugli autobus andando al lavoro - #LRCrafts" class="img-responsive photo">
                 </figure>
             </section>
-            
-            <!-- <section class="main-row main-row-invert" aria-labelledby="#section-title-2">
-                <div class="images">
-                    <?php require_once '../include/slider-crafts.php';?>                    
-                </div>
-                <div class="card" style="display:none;">
-                    <h2 class="card-title" id="section-title-2">#LRCrafts: "Se puoi pensarlo, puoi farlo"</h2>
-                    
-                    <p>
-                        Il nostro motto è 
-                    </p>
-                    <blockquote>"Se puoi pensarlo, puoi farlo"</blockquote>
-                </div>
-
-            </section> -->
             
             <?php require_once '../include/shape-divider.php';?>
 

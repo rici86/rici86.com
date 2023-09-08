@@ -307,9 +307,9 @@ main.with-shape-divider {
     padding-bottom: calc(1rem + 81px);
 }
 .book-shape-divider {
-    position: absolute;
+    /* position: absolute;
     bottom: -1px;
-    left: 0;
+    left: 0; */
     width: 100%;
     overflow: hidden;
     line-height: 0;
