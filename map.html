@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Our family map</title>
+    <link rel="shortcut icon" href="src/img/logofavicon.png" type="imag/png" />
+    <!-- Amcharts  -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+            Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+        .container {
+            display: flex;
+            gap: 1rem;
+        }
+        #chartdiv {
+            width: 100%;
+            height: calc(100vh - 5rem);
+        }
+        .legenda {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 1rem;
+            font-size: 0.85rem;
+        }
+        .orange {
+            color: #ff8c00;
+        }
+        .red {
+            color: #ff0000;
+        }
+        .yellow {
+            color: #F7D100;
+        }
+        .green {
+            color: #008000;
+        }
+    </style>
+</head>
+<body>
+    <div class="legenda">
+        <b>Legenda colori</b>
+        <br><span class="orange">Arancio:</span> Luca e Sara
+        <br><span class="yellow">Giallo:</span> Luca
+        <br><span class="red">Rosso:</span> Sara
+        <br><span class="green">Verde:</span> Luca, Sara e Rebecca
+    </div>
+    <div id="chartdiv"></div>
+    <div class="container">
+    </div>
+    <script>
+        /**
+         * ---------------------------------------
+         * Created using amCharts 5 -
+         * https://www.amcharts.com/
+         * ---------------------------------------
+         */
+
+        // Create root element
+        // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+        var root = am5.Root.new("chartdiv");
+
+        // Colors
+        var coupleColor = am5.color(0xff8c00); // Default orange
+        var familyColor = am5.color(0x008000); // Green
+        var saraColor = am5.color(0xff0000); // Red
+        var lucaColor = am5.color(0xffff00); // Yellow
+
+        // Set themes
+        // https://www.amcharts.com/docs/v5/concepts/themes/
+        root.setThemes([am5themes_Animated.new(root)]);
+
+        // Create the map chart
+        // https://www.amcharts.com/docs/v5/charts/map-chart/
+        var chart = root.container.children.push(
+            am5map.MapChart.new(root, {
+                panX: "rotateX",
+                panY: "translateY",
+                projection: am5map.geoMercator()
+            })
+        );
+
+        var zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+        zoomControl.homeButton.set("visible", true);
+
+        // Create main polygon series for countries
+        // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/
+        var polygonSeries = chart.series.push(
+            am5map.MapPolygonSeries.new(root, {
+                geoJSON: am5geodata_worldLow,
+                exclude: ["AQ"]
+            })
+        );
+
+        polygonSeries.mapPolygons.template.setAll({
+            fill: am5.color(0xdadada)
+        });
+
+        // Create point series for markers
+        // https://www.amcharts.com/docs/v5/charts/map-chart/map-point-series/
+        var pointSeries = chart.series.push(am5map.ClusteredPointSeries.new(root, {}));
+
+        // Set clustered bullet
+        // https://www.amcharts.com/docs/v5/charts/map-chart/clustered-point-series/#Group_bullet
+        pointSeries.set("clusteredBullet", function (root) {
+            var container = am5.Container.new(root, {
+                cursorOverStyle: "pointer"
+            });
+
+            var circle1 = container.children.push(
+                am5.Circle.new(root, {
+                    radius: 8,
+                    tooltipY: 0,
+                    fill: am5.color(0xff8c00)
+                })
+            );
+
+            var circle2 = container.children.push(
+                am5.Circle.new(root, {
+                    radius: 12,
+                    fillOpacity: 0.3,
+                    tooltipY: 0,
+                    fill: am5.color(0xff8c00)
+                })
+            );
+
+            var circle3 = container.children.push(
+                am5.Circle.new(root, {
+                    radius: 16,
+                    fillOpacity: 0.3,
+                    tooltipY: 0,
+                    fill: am5.color(0xff8c00)
+                })
+            );
+
+            var label = container.children.push(
+                am5.Label.new(root, {
+                    centerX: am5.p50,
+                    centerY: am5.p50,
+                    fill: am5.color(0xffffff),
+                    populateText: true,
+                    fontSize: "8",
+                    text: "{value}"
+                })
+            );
+
+            container.events.on("click", function (e) {
+                pointSeries.zoomToCluster(e.target.dataItem);
+            });
+
+            return am5.Bullet.new(root, {
+                sprite: container
+            });
+        });
+
+        // Create regular bullets
+        pointSeries.bullets.push(function (root, series, dataItem) {
+            var circle = am5.Circle.new(root, {
+                radius: 6,
+                tooltipY: 0,
+                fill: dataItem.dataContext.color || coupleColor, // Default to coupleColor (orange) if no color is provided
+                tooltipText: "{title}"
+            });
+
+            return am5.Bullet.new(root, {
+                sprite: circle
+            });
+        });
+
+        // Set data
+        var cities = [
+            // Czech Republic
+            { title: "Prague", latitude: 50.0878, longitude: 14.4205, color: coupleColor },
+
+            // Finland
+            {
+                title: "Helsinki",
+                latitude: 60.1699,
+                longitude: 24.9384,
+                color: familyColor
+            },
+
+            // France
+            { title: "Paris", latitude: 48.8567, longitude: 2.351, color: coupleColor },
+
+            // Greece
+            { title: "Athens", latitude: 37.9792, longitude: 23.7166, color: coupleColor },
+
+            // Hungary
+            { title: "Budapest", latitude: 47.4984, longitude: 19.0408, color: saraColor },
+
+            // Ireland
+            { title: "Dublin", latitude: 53.3441, longitude: -6.2675, color: familyColor },
+            { title: "Cork", latitude: 51.8985, longitude: -8.4756, color: coupleColor },
+            {
+                title: "Blarney",
+                latitude: 51.9293,
+                longitude: -8.5706,
+                color: coupleColor
+            },
+            {
+                title: "Waterford",
+                latitude: 52.2593,
+                longitude: -7.1101,
+                color: coupleColor
+            },
+            {
+                title: "Kilkenny",
+                latitude: 52.6541,
+                longitude: -7.2448,
+                color: coupleColor
+            },
+            { title: "Galway", latitude: 53.2707, longitude: -9.0568, color: coupleColor },
+
+            // Italy
+            { title: "Rome", latitude: 41.8955, longitude: 12.4823, color: coupleColor },
+            { title: "Milan", latitude: 45.4642, longitude: 9.19, color: familyColor },
+            { title: "Pavia", latitude: 45.1842, longitude: 9.1581, color: coupleColor },
+
+            //Malta
+            {
+                title: "Valletta",
+                latitude: 35.9042,
+                longitude: 14.5189,
+                color: coupleColor
+            },
+            {
+                title: "Marsaxlokk",
+                latitude: 35.8417,
+                longitude: 14.5433,
+                color: coupleColor
+            },
+            { title: "Qrendi", latitude: 35.8421, longitude: 14.4547, color: coupleColor },
+            { title: "Tarxien", latitude: 35.8651, longitude: 14.515, color: coupleColor },
+            { title: "Dingli", latitude: 35.8612, longitude: 14.3825, color: coupleColor },
+            { title: "Rabat", latitude: 35.8817, longitude: 14.3984, color: coupleColor },
+            { title: "Mdina", latitude: 35.8876, longitude: 14.4039, color: coupleColor },
+            { title: "Paola", latitude: 35.8764, longitude: 14.5181, color: coupleColor },
+            {
+                title: "Floriana",
+                latitude: 35.8953,
+                longitude: 14.5067,
+                color: coupleColor
+            },
+            {
+                title: "Il Gzira",
+                latitude: 35.9025,
+                longitude: 14.4942,
+                color: coupleColor
+            },
+            { title: "Sliema", latitude: 35.9122, longitude: 14.5019, color: coupleColor },
+            {
+                title: "Saint Julian",
+                latitude: 35.9241,
+                longitude: 14.4896,
+                color: coupleColor
+            },
+            {
+                title: "Mellieha",
+                latitude: 35.9579,
+                longitude: 14.3626,
+                color: coupleColor
+            },
+            {
+                title: "Cirkewwa",
+                latitude: 35.9973,
+                longitude: 14.3276,
+                color: coupleColor
+            },
+            { title: "Comino", latitude: 36.0141, longitude: 14.3363, color: coupleColor },
+            {
+                title: "Ghajnsielem",
+                latitude: 36.0228,
+                longitude: 14.2932,
+                color: coupleColor
+            },
+            {
+                title: "Victoria",
+                latitude: 36.0444,
+                longitude: 14.2396,
+                color: coupleColor
+            },
+            {
+                title: "Marsalforn",
+                latitude: 36.0677,
+                longitude: 14.2582,
+                color: coupleColor
+            },
+
+            // Germany
+            { title: "Monaco", latitude: 43.7325, longitude: 7.4189, color: coupleColor },
+
+            // Romania
+            {
+                title: "Bucharest",
+                latitude: 44.4479,
+                longitude: 26.0979,
+                color: saraColor
+            },
+
+            // Slovakia
+            {
+                title: "Bratislava",
+                latitude: 48.2116,
+                longitude: 17.1547,
+                color: coupleColor
+            },
+
+            // England
+            { title: "London", latitude: 51.5002, longitude: -0.1262, color: coupleColor },
+            //Northern Ireland
+            {
+                title: "Belfast",
+                latitude: 54.5973,
+                longitude: -5.9301,
+                color: coupleColor
+            },
+            { title: "Derry", latitude: 54.9966, longitude: -7.3086, color: coupleColor },
+            {
+                title: "Ballymoney",
+                latitude: 55.0711,
+                longitude: -6.5123,
+                color: coupleColor
+            },
+            { title: "Armoy", latitude: 55.1552, longitude: -6.3216, color: coupleColor },
+            {
+                title: "Ballintoy",
+                latitude: 55.2409,
+                longitude: -6.3691,
+                color: coupleColor
+            },
+            {
+                title: "Bushmills",
+                latitude: 55.2057,
+                longitude: -6.5245,
+                color: coupleColor
+            },
+            {
+                title: "Portrush",
+                latitude: 55.2003,
+                longitude: -6.6528,
+                color: coupleColor
+            },
+            {
+                title: "Causeway Coast Glens",
+                latitude: 55.2408,
+                longitude: -6.5119,
+                color: coupleColor
+            },
+            {
+                title: "Carrick-a-rede",
+                latitude: 55.2413,
+                longitude: -6.3141,
+                color: coupleColor
+            },
+            {
+                title: "Carrickfergus",
+                latitude: 54.7171,
+                longitude: -5.805,
+                color: coupleColor
+            },
+            // Ireland
+            {
+                title: "Donegal Town",
+                latitude: 54.6533,
+                longitude: -8.1096,
+                color: coupleColor
+            },
+            {
+                title: "Fanad Head",
+                latitude: 55.2745,
+                longitude: -7.6342,
+                color: coupleColor
+            },
+            {
+                title: "Letterkenny",
+                latitude: 54.9482,
+                longitude: -7.7343,
+                color: coupleColor
+            },
+            { title: "Ardara", latitude: 54.7629, longitude: -8.4099, color: coupleColor },
+            // Scotland
+            {
+                title: "Edinburgh",
+                latitude: 55.9533,
+                longitude: -3.1883,
+                color: coupleColor
+            },
+            {
+                title: "Inverness",
+                latitude: 57.4778,
+                longitude: -4.2247,
+                color: coupleColor
+            },
+            {
+                title: "Fort William",
+                latitude: 56.8198,
+                longitude: -5.1052,
+                color: coupleColor
+            },
+            {
+                title: "Portree",
+                latitude: 57.4125,
+                longitude: -6.1942,
+                color: coupleColor
+            },
+            {
+                title: "Dunvegan",
+                latitude: 57.4369,
+                longitude: -6.5777,
+                color: coupleColor
+            },
+            {
+                title: "Stirling",
+                latitude: 56.1165,
+                longitude: -3.9369,
+                color: coupleColor
+            },
+            {
+                title: "Glenfinnan",
+                latitude: 56.8708,
+                longitude: -5.4387,
+                color: coupleColor
+            },
+            { title: "Falkirk", latitude: 56.001, longitude: -3.7836, color: coupleColor },
+            {
+                title: "Linlithgow",
+                latitude: 55.9761,
+                longitude: -3.6038,
+                color: coupleColor
+            },
+            {
+                title: "Pitlochry",
+                latitude: 56.7059,
+                longitude: -3.7333,
+                color: coupleColor
+            },
+
+            // Sweden
+            {
+                title: "Gothenburg",
+                latitude: 57.7089,
+                longitude: 11.9746,
+                color: coupleColor
+            },
+            {
+                title: "Uddevalla",
+                latitude: 58.3498,
+                longitude: 11.9387,
+                color: coupleColor
+            },
+            { title: "Styrsö", latitude: 57.6011, longitude: 11.7867, color: coupleColor },
+            {
+                title: "Kladesholmen",
+                latitude: 58.0115,
+                longitude: 11.5368,
+                color: coupleColor
+            },
+            { title: "Henån", latitude: 58.2285, longitude: 11.6894, color: coupleColor },
+
+            // Singapore
+            {
+                title: "Singapore",
+                latitude: 1.2894,
+                longitude: 103.85,
+                color: coupleColor
+            },
+
+            // Indonesia
+            {
+                title: "Prambanan",
+                latitude: -7.752,
+                longitude: 110.4918,
+                color: coupleColor
+            },
+            { title: "Solo", latitude: -7.5666, longitude: 110.8167, color: coupleColor },
+            {
+                title: "Mendut",
+                latitude: -7.6007,
+                longitude: 110.2246,
+                color: coupleColor
+            },
+            {
+                title: "Borobudur",
+                latitude: -7.6079,
+                longitude: 110.2038,
+                color: coupleColor
+            },
+            {
+                title: "Yogyakarta",
+                latitude: -7.7956,
+                longitude: 110.3695,
+                color: coupleColor
+            },
+            {
+                title: "Gili Trawangan",
+                latitude: -8.3483,
+                longitude: 116.0426,
+                color: coupleColor
+            },
+            {
+                title: "Gili Meno",
+                latitude: -8.352,
+                longitude: 116.0611,
+                color: coupleColor
+            },
+            {
+                title: "Candidasa",
+                latitude: -8.5081,
+                longitude: 115.54,
+                color: coupleColor
+            },
+            {
+                title: "Manggis",
+                latitude: -8.5166,
+                longitude: 115.5335,
+                color: coupleColor
+            },
+            {
+                title: "Kintamani",
+                latitude: -8.2503,
+                longitude: 115.3828,
+                color: coupleColor
+            },
+            {
+                title: "Candikuning",
+                latitude: -8.2827,
+                longitude: 115.1558,
+                color: coupleColor
+            },
+            { title: "Ubud", latitude: -8.5069, longitude: 115.2625, color: coupleColor },
+            {
+                title: "Jatiluwih",
+                latitude: -8.3694,
+                longitude: 115.1253,
+                color: coupleColor
+            },
+            {
+                title: "Tegalalang",
+                latitude: -8.4445,
+                longitude: 115.2795,
+                color: coupleColor
+            },
+            {
+                title: "Peliatan",
+                latitude: -8.5231,
+                longitude: 115.2694,
+                color: coupleColor
+            },
+            { title: "Mas", latitude: -8.5504, longitude: 115.2684, color: coupleColor },
+            {
+                title: "Batuan",
+                latitude: -8.5857,
+                longitude: 115.2825,
+                color: coupleColor
+            },
+            {
+                title: "Tanah Lot",
+                latitude: -8.6214,
+                longitude: 115.0862,
+                color: coupleColor
+            },
+            {
+                title: "Mengwi",
+                latitude: -8.5371,
+                longitude: 115.1522,
+                color: coupleColor
+            },
+            {
+                title: "Tabanan",
+                latitude: -8.5408,
+                longitude: 115.1226,
+                color: coupleColor
+            },
+            {
+                title: "Seminyak",
+                latitude: -8.69,
+                longitude: 115.1686,
+                color: coupleColor
+            },
+            // Austria
+            { title: "Graz", latitude: 47.0707, longitude: 15.4395, color: saraColor },
+            {
+                title: "Mauthausen",
+                latitude: 48.2401,
+                longitude: 14.5167,
+                color: saraColor
+            },
+            { title: "Salzburg", latitude: 47.8095, longitude: 13.055, color: saraColor },
+
+            // France
+            { title: "Angers", latitude: 47.4784, longitude: -0.5632, color: coupleColor },
+            { title: "Rouen", latitude: 49.4432, longitude: 1.0993, color: coupleColor },
+            { title: "Caen", latitude: 49.1829, longitude: -0.3707, color: coupleColor },
+            { title: "Bayeux", latitude: 49.2768, longitude: -0.7003, color: coupleColor },
+            { title: "Vannes", latitude: 47.6559, longitude: -2.7603, color: coupleColor },
+            {
+                title: "Mont-Saint-Michel",
+                latitude: 48.6361,
+                longitude: -1.5115,
+                color: coupleColor
+            },
+            {
+                title: "Pontorson",
+                latitude: 48.5548,
+                longitude: -1.5118,
+                color: coupleColor
+            },
+            { title: "Dinan", latitude: 48.4552, longitude: -2.043, color: coupleColor },
+            {
+                title: "Cancale",
+                latitude: 48.6714,
+                longitude: -1.8514,
+                color: coupleColor
+            },
+            {
+                title: "Saint Malo",
+                latitude: 48.6493,
+                longitude: -2.0257,
+                color: coupleColor
+            },
+            {
+                title: "Courville-sur-Eure",
+                latitude: 48.4526,
+                longitude: 1.2451,
+                color: saraColor
+            }
+        ];
+
+        function addCity(longitude, latitude, title, color) {
+            pointSeries.data.push({
+                geometry: { type: "Point", coordinates: [longitude, latitude] },
+                title: title,
+                color: color
+            });
+        }
+        // Update your loop to pass the color
+        for (var i = 0; i < cities.length; i++) {
+            var city = cities[i];
+            addCity(city.longitude, city.latitude, city.title, city.color);
+        }
+
+        // Make stuff animate on load
+        chart.appear(1000, 100);
+
+    </script>
+</body>
+</html>
