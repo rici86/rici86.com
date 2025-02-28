@@ -21,6 +21,7 @@
             display: flex;
             gap: 1rem;
         }
+        h1 {margin-bottom: 2.3rem;}
         #chartdiv {
             width: 100%;
             height: calc(100vh - 5rem - 43px);
@@ -29,7 +30,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            padding: 1rem;
+            padding: 0.5rem 1rem;
             font-size: 0.85rem;
         }
         @media all and (max-width: 700px) {
@@ -251,6 +252,13 @@
             { title: "Courmayeur", latitude: 45.7916, longitude: 6.9683, color: familyColor },
             { title: "Pre-Saint-Didier", latitude: 45.7648, longitude: 6.9865, color: familyColor },
             { title: "Morgex", latitude: 45.7546, longitude: 7.0362, color: familyColor },
+            { title: "Mortara", latitude: 45.2506, longitude: 8.7351, color: familyColor },
+            { title: "Senigallia", latitude: 43.7180, longitude: 13.2141, color: familyColor },
+            { title: "Cattolica", latitude: 43.9617, longitude: 12.7362, color: familyColor },
+            { title: "Corinaldo", latitude: 43.6509, longitude: 13.0478, color: familyColor },
+            { title: "Arcevia", latitude: 43.5097, longitude: 12.9436, color: familyColor },
+            { title: "Gradara", latitude: 43.9386, longitude: 12.7756, color: familyColor },
+            { title: "Ostra Vetere", latitude: 43.5994, longitude: 13.0444, color: familyColor },
 
             { title: "Rome", latitude: 41.8955, longitude: 12.4823, color: coupleColor },
             { title: "Pavia", latitude: 45.1842, longitude: 9.1581, color: coupleColor },
@@ -267,7 +275,26 @@
             { title: "Arona", latitude: 45.7584, longitude: 8.5615, color: coupleColor },
             { title: "Bard", latitude: 45.6104, longitude: 7.7364, color: coupleColor },
             { title: "Fenis", latitude: 45.7385, longitude: 7.4822, color: coupleColor },
+            { title: "Ferrara", latitude: 44.8381, longitude: 11.6198, color: coupleColor },
+            { title: "Luni", latitude: 44.0833, longitude: 10.0167, color: coupleColor },
+            { title: "Ventimiglia", latitude: 43.7928, longitude: 7.607, color: coupleColor },
+            { title: "Dolceacqua", latitude: 43.8531, longitude: 7.6211, color: coupleColor },
 
+            { title: "Triora", latitude: 43.9883, longitude: 7.7154, color: saraColor },
+            { title: "Arenzano", latitude: 44.4094, longitude: 8.6811, color: saraColor },
+            { title: "Pietra Ligure", latitude: 44.1477, longitude: 8.2792, color: saraColor },
+            { title: "Rapallo", latitude: 44.3514, longitude: 9.2307, color: saraColor },
+            { title: "Portovenere", latitude: 44.0521, longitude: 9.8333, color: saraColor },
+            { title: "Corniglia", latitude: 44.1192, longitude: 9.7099, color: saraColor },
+            { title: "Vernazza", latitude: 44.1341, longitude: 9.6852, color: saraColor },
+            { title: "Manarola", latitude: 44.1044, longitude: 9.7266, color: saraColor },
+            { title: "Riomaggiore", latitude: 44.1003, longitude: 9.737, color: saraColor },
+            { title: "Monterosso", latitude: 44.1461, longitude: 9.6543, color: saraColor },
+            { title: "Portofino", latitude: 44.3031, longitude: 9.2105, color: saraColor },
+            { title: "San Fruttuoso", latitude: 44.3113, longitude: 9.1808, color: saraColor },
+            { title: "Equi Terme", latitude: 44.1561, longitude: 10.0997, color: saraColor },
+            { title: "Marina di Massa", latitude: 44.0167, longitude: 10.05, color: saraColor },
+            { title: "Viareggio", latitude: 43.8736, longitude: 10.2565, color: saraColor },
             { title: "Campegine", latitude: 44.7952, longitude: 10.4831, color: saraColor },
             { title: "Canossa", latitude: 44.5915, longitude: 10.4368, color: saraColor },
             { title: "Parma", latitude: 44.8015, longitude: 10.3279, color: saraColor },
@@ -303,6 +330,16 @@
             { title: "Aosta", latitude: 45.737, longitude: 7.3173, color: saraColor },
             { title: "Pila", latitude: 45.6893, longitude: 7.3085, color: saraColor },
             { title: "Valtournenche", latitude: 45.8854, longitude: 7.6298, color: saraColor },
+            { title: "Treviso", latitude: 45.6667, longitude: 12.2416, color: saraColor },
+            { title: "Redipuglia", latitude: 45.8511, longitude: 13.4825, color: saraColor },
+            { title: "Aquileia", latitude: 45.7681, longitude: 13.3681, color: saraColor },
+            { title: "Padova", latitude: 45.4064, longitude: 11.8768, color: saraColor },
+            { title: "Monselice", latitude: 45.2333, longitude: 11.75, color: saraColor },
+            { title: "Cà Tron (TV)", latitude: 45.5931, longitude: 12.3328, color: saraColor },
+
+            { title: "Bassano del Grappa", latitude: 45.7667, longitude: 11.7333, color: lucaColor },
+            { title: "Lido delle Nazioni", latitude: 44.7372, longitude: 12.2425, color: lucaColor },
+            { title: "Chioggia", latitude: 45.2021, longitude: 12.2530, color: lucaColor },
 
             // Sicily
             { title: "Noto", latitude: 36.8897, longitude: 15.0659, color: saraColor },
@@ -412,8 +449,12 @@
                 color: coupleColor
             },
 
+            //Spain
+            { title: "Barcelona", latitude: 41.3874, longitude: 2.1686, color: lucaColor },
+
             // England
             { title: "London", latitude: 51.5002, longitude: -0.1262, color: coupleColor },
+            
             //Northern Ireland
             {
                 title: "Belfast",
