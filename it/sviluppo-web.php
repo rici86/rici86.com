@@ -11,7 +11,7 @@
     <meta name="description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
 	
     <meta property="article:author" content="https://www.facebook.com/rici86" />
-    <meta property="og:title" content="Rici86 - Coder, Crafter, Creative e anche un po' Nerd" />
+    <meta property="og:title" content="Rici86 - Coder, Crafter, Creativa e anche un po' Nerd" />
     <meta property="og:description" content="Front-end developer per lavoro, crafter e Irish dance nerd per passione" />
     <meta property="og:site_name" content="Rici86" />
     <meta property="og:image" content="../src/img/spirit-of-the-forest.jpg" />
@@ -24,8 +24,8 @@
 
     <!-- Css  -->
     <link href="../src/css/main.css?v=1.11" rel="stylesheet">
-    <link href="../src/fontawesome/css/all.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <?php require_once '../include/analytics.php';?>
 </head>
 
